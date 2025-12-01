@@ -1,0 +1,1004 @@
+{
+  "model_response": [
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: nice product. very niceDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would classify this review as \"positive\". Although it's a brief and somewhat generic statement, the use of the word \"very\" to describe the product suggests that the reviewer has a high opinion of it.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 73; Sex: M; Initial evidence: Do you have pain somewhere, related to your reason for consulting? Yes; Evidence: ; Do you regularly drink coffee or tea? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: burning; Do you feel pain somewhere? forehead; How intense is the pain? 6; Does the pain radiate to another location? nowhere; How precisely is the pain located? 6; How fast did the pain appear? 2; Do you consume energy drinks regularly? Yes; Do you regularly take stimulant drugs? Yes; Do you feel slightly dizzy or lightheaded? Yes; Do you feel lightheaded and dizzy or do you feel like you are about to faint? Yes; Do you feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations? Yes; Have you traveled out of the country in the last 4 weeks? N. What is the diagnosis? Select one answer among ['psvt', 'anemia', 'atrial fibrillation', 'anaphylaxis', 'cluster headache', 'scombroid food poisoning', 'panic attack', 'chagas'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the provided information, the most likely diagnosis is:\n\n**Panic Attack**\n\nHere's a summary of why:\n\n1. The patient is 73 years old and presents with recurring burning pain, which is unusual for this age group.\n2. The pain is localized to the forehead and is described as intense (6/10).\n3. The pain appeared suddenly (2 minutes) and did not radiate to another location.\n4. The patient consumes energy drinks regularly and takes stimulant drugs, both of which can trigger panic attacks.\n5. The patient experiences symptoms consistent with a panic attack, including dizziness, lightheadedness, palpitations, and feelings of faintness or impending doom.\n6. There is no mention of any other potential causes for the pain, such as migraines (which are more common in this age group) or cardiovascular issues.\n\nWhile some of the symptoms could be consistent with other conditions, such as cluster headaches or atrial fibrillation, the combination of factors and the patient's history make panic attack a more likely diagnosis.",
+      "label": "psvt"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 52; Sex: F; Initial evidence: Have you had an involuntary weight loss over the last 3 months? Yes; Evidence: ; Do you have swollen or painful lymph nodes? Yes; Have you ever had a sexually transmitted infection? Yes; Have you had significantly increased sweating? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: tedious; Characterize your pain: sensitive; Characterize your pain: a pulse; Characterize your pain: exhausting; Do you feel pain somewhere? back of head; Do you feel pain somewhere? top of the head; Do you feel pain somewhere? forehead; Do you feel pain somewhere? temple(R); How intense is the pain? 4; Does the pain radiate to another location? nowhere; How precisely is the pain located? 8; How fast did the pain appear? 6; Do you feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long? Yes; Do you have a fever (either felt or measured with a thermometer)? Yes; Do you have a sore throat? Yes; Have you had unprotected sex with more than one partner in the last 6 months? Yes; Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for? Yes; What color is the rash? pale; Do your lesions peel off? N; Is the rash swollen? 1; Where is the affected region located? lower gum; Where is the affected region located? upper gum; Where is the affected region located? labia majora(R); Where is the affected region located? labia majora(L); Where is the affected region located? internal cheek(R); How intense is the pain caused by the rash? 3; Is the lesion (or are the lesions) larger than 1cm? Y; How severe is the itching? 0; Have you had an involuntary weight loss over the last 3 months? Yes; Have you had sexual intercourse with an HIV-positive partner in the past 12 months? Yes; Have you traveled out of the country in the last 4 weeks? N. What is the diagnosis? Select one answer among ['hiv (initial infection)', 'chagas', 'influenza', 'urti', 'anemia', 'sarcoidosis'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the information provided, the doctor's diagnosis would be:\n\n'HIV (Initial Infection)'.\n\nThe patient presents with several symptoms that are consistent with an initial HIV infection, including:\n\n* Unexplained weight loss\n* Swollen or painful lymph nodes\n* Increased sweating\n* Pain in the head and neck area\n* Fever\n* Sore throat\n* Lesions on the skin, particularly in the genital area (labia majora)\n* Intense itching (although it is reported as 0)\n\nThese symptoms are characteristic of primary syphilis, which is often caused by an initial HIV infection. The patient's history of unprotected sex with multiple partners and having sex with an HIV-positive partner in the past 12 months increases their risk for acquiring HIV.\n\nIt's worth noting that the presence of tender or painful lymph nodes, especially in the groin area (labia majora), is a classic symptom of primary syphilis. Additionally, the patient's symptoms such as unexplained weight loss, fever, and sore throat are also consistent with primary syphilis.\n\nThe other options do not fit well with the patient's symptoms:\n\n* Chagas disease is typically associated with chronic weight loss, cardiovascular problems, and gastrointestinal issues.\n* Influenza would likely present with more acute respiratory symptoms such as cough, shortness of breath, and body aches.\n* URTI (Upper Respiratory Tract Infection) would not typically cause genital lesions or swollen lymph nodes.\n* Anemia is a general condition that can cause fatigue but does not explain the patient's specific symptoms.\n* Sarcoidosis is an inflammatory disease that typically affects the lungs, lymph nodes, and other organs, and would not typically present with the combination of symptoms seen in this patient.",
+      "label": "hiv (initial infection)"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:1. Review: don't waste your money. waste of moneyDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative.",
+      "label": "negative"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: worth every penny. value for moneyDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The answer is: positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: awesome. many angle nice productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: highly recommended. bass is super duper guys i mean the bass is fantastic outstanding and sound quality is also v good battery backup is very goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The answer is: positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 15; Sex: F; Initial evidence: Are you experiencing shortness of breath or difficulty breathing in a significant way? Yes; Evidence: ; Have you had 2 or more asthma attacks in the past year? Yes; Are you experiencing shortness of breath or difficulty breathing in a significant way? Yes; Do you have any family members who have asthma? Yes; Have you been hospitalized for an asthma attack in the past year? Yes; Have you had a cold in the last 2 weeks? Yes; Have you been diagnosed with chronic sinusitis? Yes; Do you have asthma or have you ever had to use a bronchodilator in the past? Yes; Have you traveled out of the country in the last 4 weeks? N; Have you noticed a wheezing sound when you exhale? Yes; Are you more likely to develop common allergies than the general population? Yes. What is the diagnosis? Select one answer among ['bronchospasm / acute asthma exacerbation', 'pulmonary embolism', 'anaphylaxis', 'guillain-barré syndrome', 'atrial fibrillation', 'myocarditis', 'acute dystonic reactions', 'myasthenia gravis', 'anemia', 'scombroid food poisoning', 'psvt', 'sle', 'chagas'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's information and dialog with the doctor, the diagnosis is:\n\n'Bronchospasm / acute asthma exacerbation'\n\nThe patient exhibits several symptoms and evidence that suggest bronchospasm or acute asthma exacerbation, including:\n\n- Shortness of breath or difficulty breathing in a significant way\n- History of asthma attacks (2+ in the past year)\n- Family history of asthma\n- Wheezing sound when exhaling\n- Increased likelihood of developing common allergies\n\nThese symptoms and evidence are consistent with bronchospasm or acute asthma exacerbation, which is a condition where the airways constrict and swell, leading to difficulty breathing.",
+      "label": "bronchospasm / acute asthma exacerbation"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:3. Review: decent product. was using a simple platform to learn python coding and the device froze the device is absolutely new and i wasnt even multitasking also the speakers of this device fall on the negative sideapart from that laptop seems fine for nowDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer mentions both positive (the device \"seems fine\" overall, it's a good platform to learn Python coding) and negative aspects (it froze unexpectedly, the speakers are poor), but doesn't express strong emotions or enthusiasm.",
+      "label": "negative"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 19; Sex: F; Initial evidence: Do you have pain somewhere, related to your reason for consulting? Yes; Evidence: ; Have you ever had a diagnosis of anemia? Yes; Do you have any family members who have been diagnosed with anemia? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: exhausting; Do you feel pain somewhere? back of head; Do you feel pain somewhere? top of the head; Do you feel pain somewhere? forehead; Do you feel pain somewhere? temple(R); Do you feel pain somewhere? temple(L); How intense is the pain? 4; Does the pain radiate to another location? nowhere; How precisely is the pain located? 8; How fast did the pain appear? 2; Are you experiencing shortness of breath or difficulty breathing in a significant way? Yes; Do you constantly feel fatigued or do you have non-restful sleep? Yes; Have you recently had stools that were black (like coal)? Yes; Do you have very abundant or very long menstruation periods? Yes; Are you taking any new oral anticoagulants ((NOACs)? Yes; Is your skin much paler than usual? Yes; Do you think you are pregnant or are you currently pregnant? Yes; Have you traveled out of the country in the last 4 weeks? N; Is your BMI less than 18.5, or are you underweight? Yes. What is the diagnosis? Select one answer among ['anemia', 'myocarditis', 'acute pulmonary edema', 'guillain-barré syndrome', 'chagas', 'cluster headache', 'sle', 'acute dystonic reactions', 'myasthenia gravis', 'anaphylaxis', 'scombroid food poisoning'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the provided information, the most likely diagnosis is:\n\n1. Anemia: The patient has a history of anemia, and their symptoms such as exhaustion, shortness of breath, fatigue, pale skin, and heavy menstruation periods are consistent with anemia.\n\nThe other options do not fit well with the patient's symptoms:\n\n- Myocarditis (heart inflammation) might be suggested by some of her symptoms but does not fully explain her overall presentation.\n- Acute pulmonary edema would typically involve more sudden onset respiratory distress than described here, and there is no evidence of heart failure as a cause in the information provided.\n- Guillain-Barré Syndrome usually presents with ascending paralysis rather than pain localized to specific areas.\n- Chagas disease might be suggested by travel history but doesn't fully account for her symptoms.\n- Cluster headache typically involves extreme pain on one side of the head, usually around the eye and temple region, which does not match this patient's description.\n- SLE (Systemic Lupus Erythematosus) often presents with more systemic symptoms like arthritis, rash, kidney issues, etc., not primarily localized pain.\n- Acute dystonic reactions and myasthenia gravis are not supported by the described symptoms.\n- Anaphylaxis would present rapidly and usually involves other systemic signs such as skin lesions and cardiovascular instability.\n- Scombroid food poisoning could cause fatigue but does not explain all her symptoms.\n\nTherefore, considering the information provided and matching it with the most consistent diagnostic options:\n\nThe final answer is: anemia.",
+      "label": "anemia"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: nan. niceDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: simply awesome. very niceDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The correct answer is: positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: terrific. very good productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: good choice. goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would rate this review as \"positive\" and also include that it is very brief. The reviewer seems to be giving a general endorsement of the product without providing any specific details, which suggests a positive opinion but in a concise manner.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 67; Sex: F; Initial evidence: Do you have pain somewhere, related to your reason for consulting? Yes; Evidence: ; Are you currently taking or have you recently taken anti-inflammatory drugs (NSAIDs)? Yes; Do you have a known issue with one of your heart valves? Yes; Do you take corticosteroids? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: sensitive; Do you feel pain somewhere? ankle(R); Do you feel pain somewhere? ankle(L); Do you feel pain somewhere? dorsal aspect of the foot(R); Do you feel pain somewhere? dorsal aspect of the foot(L); Do you feel pain somewhere? sole(R); How intense is the pain? 3; Does the pain radiate to another location? nowhere; How precisely is the pain located? 5; How fast did the pain appear? 5; Have you gained weight recently? Yes; Have you ever had deep vein thrombosis (DVT)? Yes; Do you take a calcium channel blockers (medication)? Yes; Do you have swelling in one or more areas of your body? Yes; Where is the swelling located? ankle(L); Where is the swelling located? thigh(R); Where is the swelling located? thigh(L); Where is the swelling located? dorsal aspect of the foot(R); Where is the swelling located? dorsal aspect of the foot(L); Have you ever been diagnosed with obstructive sleep apnea (OSA)? Yes; Do you have a known kidney problem resulting in an inability to retain proteins? Yes; Have you traveled out of the country in the last 4 weeks? N. What is the diagnosis? Select one answer among ['localized edema', 'anaphylaxis', 'pulmonary embolism', 'chagas', 'sle'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's information and dialog with the doctor, the diagnosis can be made as follows:\n\n1. The patient has pain in multiple areas of the body, including the ankles, dorsal aspect of the foot, sole, and thighs.\n2. The pain is sensitive and intense (3/10), with a fast onset (5).\n3. The patient has swelling in multiple areas of their body, including one ankle and both thighs, as well as the dorsal aspect of the foot on both sides.\n4. The patient has a history of deep vein thrombosis (DVT) and obstructive sleep apnea (OSA).\n5. The patient is taking calcium channel blockers.\n\nConsidering these factors, the most likely diagnosis is:\n\nLocalized edema\n\nExplanation: Localized edema refers to swelling in one or more areas of the body due to fluid retention, often caused by heart failure, kidney disease, or other medical conditions. The patient's symptoms, such as swelling in multiple areas, intense pain, and a history of DVT and OSA, suggest that they may have localized edema.",
+      "label": "localized edema"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: wonderful. super qualityDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:1. Review: terrible product. only 1 month working display not workingDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative.",
+      "label": "negative"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 27; Sex: F; Initial evidence: Do you have a cough that produces colored or more abundant sputum than usual? Yes; Evidence: ; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: burning; Do you feel pain somewhere? lower chest; Do you feel pain somewhere? pharynx; Do you feel pain somewhere? posterior chest wall(L); How intense is the pain? 5; Does the pain radiate to another location? nowhere; How precisely is the pain located? 5; How fast did the pain appear? 3; Are you experiencing shortness of breath or difficulty breathing in a significant way? Yes; Do you have a cough that produces colored or more abundant sputum than usual? Yes; Do you smoke cigarettes? Yes; Do you have a chronic obstructive pulmonary disease (COPD)? Yes; Do you have nasal congestion or a clear runny nose? Yes; Do you have a cough? Yes; Have you traveled out of the country in the last 4 weeks? N; Are your vaccinations up to date? Yes; Have you noticed a wheezing sound when you exhale? Yes. What is the diagnosis? Select one answer among ['bronchitis', 'bronchiectasis', 'pneumonia', 'viral pharyngitis', 'allergic sinusitis', 'panic attack', 'possible nstemi / stemi', 'gerd', 'unstable angina', 'pericarditis', 'myocarditis', 'stable angina', 'acute laryngitis', 'spontaneous pneumothorax', 'guillain-barré syndrome', 'atrial fibrillation', 'boerhaave', 'spontaneous rib fracture', 'acute dystonic reactions', 'myasthenia gravis', 'anemia', 'urti', 'scombroid food poisoning', 'sarcoidosis', 'tuberculosis', 'psvt', 'sle'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the provided information, the diagnosis is likely to be Bronchitis.\n\nReasoning:\n\n1. The patient has a cough that produces more abundant sputum than usual, which suggests an infection or inflammation in the bronchi.\n2. The presence of burning pain in the lower chest and pharynx may indicate irritation or inflammation of the respiratory tract.\n3. The patient experiences shortness of breath and difficulty breathing, which is consistent with bronchitis.\n4. The history of smoking cigarettes increases the risk of developing bronchitis.\n5. The presence of nasal congestion and a clear runny nose also suggests an upper respiratory infection, which can be associated with bronchitis.\n\nThe other options do not fit as well with the provided symptoms:\n\n* Pneumonia typically presents with fever, chills, and severe cough, but there is no mention of these symptoms.\n* Bronchiectasis is a chronic condition that would likely have been identified earlier, and it does not explain the acute onset of symptoms.\n* Viral pharyngitis and allergic sinusitis do not fully explain the respiratory symptoms and the presence of burning pain.\n* Panic attack, myocardial infarction, pericarditis, and unstable angina are unrelated to the patient's symptoms.\n* Other options (such as sarcoidosis, tuberculosis, psvit, and anemia) do not fit with the provided history.\n\nIt is worth noting that a definitive diagnosis can only be made by further evaluation, such as laboratory tests and imaging studies. This diagnosis is based solely on the information provided in the dialog.",
+      "label": "bronchitis"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 38; Sex: M; Initial evidence: Do you have pain somewhere, related to your reason for consulting? Yes; Evidence: ; Do you have swollen or painful lymph nodes? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: sensitive; Characterize your pain: sharp; Do you feel pain somewhere? finger (ring finger)(L); Do you feel pain somewhere? finger (index)(R); Do you feel pain somewhere? finger (middle)(L); Do you feel pain somewhere? palmar face of the wrist(R); Do you feel pain somewhere? shoulder(R); How intense is the pain? 7; Does the pain radiate to another location? nowhere; How precisely is the pain located? 4; How fast did the pain appear? 0; Are you experiencing shortness of breath or difficulty breathing in a significant way? Yes; What color is the rash? NA; Do your lesions peel off? N; Is the rash swollen? 0; Where is the affected region located? nowhere; How intense is the pain caused by the rash? 0; Is the lesion (or are the lesions) larger than 1cm? N; How severe is the itching? 0; Have you traveled out of the country in the last 4 weeks? N. What is the diagnosis? Select one answer among ['possible nstemi / stemi', 'sarcoidosis', 'acute dystonic reactions', 'anemia', 'sle', 'myocarditis', 'pulmonary neoplasm', 'pulmonary embolism'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the provided dialog with the doctor, it appears that the patient's symptoms are related to their fingers and wrist. The key points from the conversation are:\n\n* Pain in multiple locations, including:\n + Finger (ring finger)(L): sensitive, sharp\n + Finger (index)(R)\n + Finger (middle)(L)\n + Palmar face of the wrist(R)\n + Shoulder(R)\n* Radiating pain to no other location\n* Intensity of pain: 7/10\n* Appearance of rash: Not mentioned (NA)\n* Lesions peeling off: No (N)\n* Swelling of rash: No (0)\n\nGiven these symptoms, a likely diagnosis could be Sarcoidosis. Sarcoidosis is an autoimmune disease that can cause inflammation in various parts of the body, including the skin and joints. It often presents with skin lesions and joint pain.\n\nIt's worth noting that the patient also reported shortness of breath, which may be related to sarcoidosis or another underlying condition. However, without further testing or information, it's difficult to determine the exact diagnosis. The doctor's selection of 'sarcoidosis' as a possible diagnosis is based on the patient's symptoms and medical history.",
+      "label": "sarcoidosis"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 18; Sex: M; Initial evidence: Have you had chills or shivers? Yes; Evidence: ; Have you had significantly increased sweating? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: sensitive; Characterize your pain: exhausting; Do you feel pain somewhere? back of head; Do you feel pain somewhere? back of the neck; Do you feel pain somewhere? side of the neck(R); Do you feel pain somewhere? forehead; Do you feel pain somewhere? occiput; How intense is the pain? 6; Does the pain radiate to another location? nowhere; How precisely is the pain located? 7; How fast did the pain appear? 3; Do you smoke cigarettes? Yes; Do you feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long? Yes; Do you have a fever (either felt or measured with a thermometer)? Yes; Have you had chills or shivers? Yes; Do you have a sore throat? Yes; Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for? Yes; What color is the rash? pink; Do your lesions peel off? N; Is the rash swollen? 3; Where is the affected region located? back of the neck; How intense is the pain caused by the rash? 6; Is the lesion (or are the lesions) larger than 1cm? Y; How severe is the itching? 4; Do you have diffuse (widespread) muscle pain? Yes; Have you recently had a loss of appetite or do you get full more quickly then usually? Yes; Do you have nasal congestion or a clear runny nose? Yes; Do you have a cough? Yes; Have you traveled out of the country in the last 4 weeks? N. What is the diagnosis? Select one answer among ['influenza', 'urti', 'hiv (initial infection)', 'pneumonia', 'bronchitis', 'chagas', 'acute rhinosinusitis', 'tuberculosis', 'chronic rhinosinusitis', 'scombroid food poisoning', 'anemia'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's symptoms and evidence, I would select 'influenza' as the diagnosis.\n\nHere's a summary of why:\n\n* The patient has fever, chills, increased sweating, pain in the back of the head, neck, and side of the neck.\n* The pain is described as sensitive and exhausting, with a rating of 6/10 in intensity.\n* The patient reports muscle pain (diffuse and widespread), which is a common symptom of influenza.\n* The presence of a rash on the back of the neck, with a rating of 6/10 in intensity, is consistent with viral infections like influenza.\n* The patient's symptoms developed quickly, within 3 days, which is consistent with an acute viral infection like influenza.\n\nWhile some symptoms could also be consistent with other conditions (e.g., URTI or tuberculous lymphadenitis), the combination of fever, chills, muscle pain, and a rash on the neck makes influenza a more likely diagnosis.",
+      "label": "influenza"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:1. Review: terrible product. both wings is very badDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative.",
+      "label": "negative"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: really nice. mi good productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: wonderful. excellentDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: brilliant. excellentDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 48; Sex: F; Initial evidence: Do you have intense coughing fits? Yes; Evidence: ; Do you feel your abdomen is bloated or distended (swollen due to pressure from inside)? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: heavy; Do you feel pain somewhere? iliac fossa(R); Do you feel pain somewhere? iliac fossa(L); Do you feel pain somewhere? hip(R); Do you feel pain somewhere? hip(L); How intense is the pain? 3; Does the pain radiate to another location? nowhere; How precisely is the pain located? 2; How fast did the pain appear? 3; Are you significantly overweight compared to people of the same height as you? Yes; Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for? Yes; What color is the rash? pale; Do your lesions peel off? N; Is the rash swollen? 5; Where is the affected region located? iliac fossa(L); How intense is the pain caused by the rash? 5; Is the lesion (or are the lesions) larger than 1cm? Y; How severe is the itching? 0; Were you born prematurely or did you suffer any complication at birth? Yes; Do you have intense coughing fits? Yes; Have you traveled out of the country in the last 4 weeks? N; Are the symptoms or pain increased with coughing, with an effort like lifting a weight or from forcing a bowel movement? Yes. What is the diagnosis? Select one answer among ['inguinal hernia', 'bronchitis', 'anaphylaxis', 'whooping cough', 'scombroid food poisoning'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's symptoms and evidence, the most likely diagnosis is:\n\n1. Inguinal Hernia.\n\nThe reasons for this diagnosis are:\n\n- Intense coughing fits\n- Feeling of abdominal bloating or distension in the iliac fossa (lower abdomen)\n- Pain in the iliac fossa (right and left sides) that radiates to the hip\n- Presence of a rash on the skin in the affected region, which is pale and swollen (5/5 on the swelling scale), indicating inflammation.\n- Being significantly overweight compared to people of the same height.\n- Itching severity (0) suggests possible skin irritation due to the hernia or pressure from the herniated content.\n- The patient was born prematurely or suffered a complication at birth, which is not directly related to the current symptoms but could be relevant for other conditions.\n\nThe options provided do not include \"inguinal hernia\", so it seems there might be an error in the options provided. Based on the information given and typical medical knowledge, inguinal hernia would be the diagnosis.",
+      "label": "inguinal hernia"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: wonderful. goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: good quality product. good qualityDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The review only mentions that the product is of good quality, but does not express any enthusiasm or emotion, and does not mention any specific benefits or features of the product.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:3. Review: fair. wondarful this itamsDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer mentions that the product is \"fair\" and then uses a typo (\"wondarful\") to express their positive opinion. This mixed language suggests that the reviewer has some positive feelings towards the product, but does not use strong language to convey their enthusiasm.",
+      "label": "neutral"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: mind-blowing purchase. delivery is little but late but its ok the boat is name enough fantastic sounds and bass are awesome i am happy that i have chosen boat thank you flipkartDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would classify this review as \"positive\". Although the reviewer mentions a minor inconvenience (late delivery), they frame it positively (\"it's okay\") and focus on the overall benefits of the product, such as its great sound quality and happiness with their purchase. The phrase \"mind-blowing\" also suggests a very positive sentiment.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: awesome. superDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The review is \"positive\"",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: delightful. niceDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: not specified. nice fittingDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer mentions that the product is a good fit but does not provide any further details about its quality, performance, or overall satisfaction.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:3. Review: nan. good qualityDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer hasn't provided a detailed evaluation of the product's performance, features, or any specific pros and cons. They've only mentioned that it has \"good quality\" without giving further information, which suggests a neutral tone rather than a strongly positive or negative review.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: good quality product. every thing about it is good but in my family they dont use it if some one need it come and take it for freeDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer mentions that the product has good quality, but their personal experience with it is limited to not being used by their family members unless someone needs it, implying a lack of usefulness or relevance in their household.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: simply awesome. goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer uses the phrase \"simply awesome\" to express a strong positive opinion, but also adds \"good\" as a secondary descriptor, which suggests that their expectations were not exceeded and they are being somewhat cautious in their praise.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: worth the money. perfect for my home and i like it however bulb power can be improveDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer mentions some positive aspects (\"worth the money\", \"perfect for my home\"), but also a negative aspect (\"bulb power can be improved\") that prevents them from giving a higher rating.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: nan. very happyDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The correct answer is: positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:3. Review: nice. istollesaion is very very poorDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would say that this review is \"negative\". The reviewer mentions that the installation is \"very very poor\", which strongly suggests a negative experience, and only adds a brief positive comment (\"nice\") about something unrelated to the product itself.",
+      "label": "negative"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 3; Sex: M; Initial evidence: Are your symptoms more prominent at night? Yes; Evidence: ; Have you been coughing up blood? Yes; Characterize your pain: NA; Do you feel pain somewhere? nowhere; How intense is the pain? 0; Does the pain radiate to another location? nowhere; How precisely is the pain located? 0; How fast did the pain appear? 0; Do you have a cough that produces colored or more abundant sputum than usual? Yes; Do you drink alcohol excessively or do you have an addiction to alcohol? Yes; Do you have a fever (either felt or measured with a thermometer)? Yes; Have you had chills or shivers? Yes; Do you have heart failure? Yes; Have you ever had a stroke? Yes; Have you ever had pneumonia? Yes; Do you have a chronic obstructive pulmonary disease (COPD)? Yes; Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for? Yes; What color is the rash? pink; Do your lesions peel off? Y; Is the rash swollen? 6; Where is the affected region located? commissure(L); Where is the affected region located? shoulder(R); Where is the affected region located? shoulder(L); How intense is the pain caused by the rash? 0; Is the lesion (or are the lesions) larger than 1cm? N; How severe is the itching? 2; Do you have diffuse (widespread) muscle pain? Yes; Have you recently had a loss of appetite or do you get full more quickly then usually? Yes; Have you noticed any new fatigue, generalized and vague discomfort, diffuse (widespread) muscle aches or a change in your general well-being related to your consultation today? Yes; Have you had surgery within the last month? Yes; Do you have a cough? Yes; Have you traveled out of the country in the last 4 weeks? N; Is your BMI less than 18.5, or are you underweight? Yes; Are your vaccinations up to date? Yes; Are your symptoms more prominent at night? Yes; Do you have pain that is increased when you breathe in deeply? Yes. What is the diagnosis? Select one answer among ['pneumonia', 'bronchitis', 'tuberculosis', 'influenza', 'pulmonary embolism', 'hiv (initial infection)'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the provided information, the likely diagnosis is:\n\n Tuberculosis (TB)\n\nReasons for this diagnosis:\n\n1. Age: The patient is 3 years old, which is a common age group for TB.\n2. Symptoms: The patient has symptoms such as coughing up blood, fever, chills, and weight loss, which are all consistent with TB.\n3. History of heart failure, stroke, pneumonia, COPD, and substance abuse: These underlying medical conditions can increase the risk of developing TB.\n4. Presence of skin lesions: The presence of pink rash on the commissure (L) and shoulder (R) is a common manifestation of TB.\n5. Itching intensity: Moderate itching (itching intensity 2/10) is also consistent with TB.\n6. Other symptoms: Loss of appetite, fatigue, muscle pain, and diffuse muscle aches are all symptoms that can be associated with TB.\n\nThe other options can be ruled out based on the following reasons:\n\n* Pneumonia: While the patient has a cough, there is no mention of pneumonia as an underlying condition.\n* Bronchitis: There is no evidence to suggest bronchitis as a primary diagnosis.\n* Influenza: The patient's symptoms do not match the typical presentation of influenza (e.g., sudden onset, high fever).\n* Pulmonary embolism: There are no signs or symptoms that would suggest pulmonary embolism, such as chest pain or shortness of breath.\n* HIV (initial infection): While the patient has a history of substance abuse, which can increase the risk of HIV transmission, there is no mention of recent exposure to HIV or symptoms consistent with an HIV infection.\n\nNote: A definitive diagnosis should be made by a qualified healthcare professional after a physical examination and laboratory tests, such as sputum smear microscopy or molecular testing.",
+      "label": "pneumonia"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: classy product. very nice productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The review is positive.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: good choice. within 2 days of use satisfied working good as normal car audio aux performance bass option seems good and call quality is fineDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would classify this review as \"positive\". The reviewer uses phrases such as \"good choice\" and mentions that the product is \"working good as normal\", which suggests satisfaction with its functionality. They also mention specific positive aspects, such as good car audio aux performance and bass option, as well as fine call quality.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 36; Sex: M; Initial evidence: Have you had significantly increased sweating? Yes; Evidence: ; Have you had significantly increased sweating? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: sensitive; Characterize your pain: exhausting; Do you feel pain somewhere? back of head; Do you feel pain somewhere? back of the neck; Do you feel pain somewhere? side of the neck(R); Do you feel pain somewhere? forehead; Do you feel pain somewhere? occiput; How intense is the pain? 6; Does the pain radiate to another location? nowhere; How precisely is the pain located? 6; How fast did the pain appear? 6; Do you have a fever (either felt or measured with a thermometer)? Yes; Have you had chills or shivers? Yes; Do you have a sore throat? Yes; Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for? Yes; What color is the rash? pink; Do your lesions peel off? N; Is the rash swollen? 2; Where is the affected region located? back of the neck; Where is the affected region located? side of the neck(R); Where is the affected region located? forehead; How intense is the pain caused by the rash? 0; Is the lesion (or are the lesions) larger than 1cm? Y; How severe is the itching? 2; Do you have diffuse (widespread) muscle pain? Yes; Have you recently had a loss of appetite or do you get full more quickly then usually? Yes; Do you have nasal congestion or a clear runny nose? Yes; Do you have a cough? Yes; Have you traveled out of the country in the last 4 weeks? N. What is the diagnosis? Select one answer among ['urti', 'influenza', 'hiv (initial infection)', 'pneumonia', 'bronchitis', 'tuberculosis', 'acute rhinosinusitis', 'chronic rhinosinusitis', 'scombroid food poisoning', 'chagas', 'anaphylaxis'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's symptoms and evidence, the most likely diagnosis is:\n\n**Urticaria (Hives)**\n\nThe key reasons for this diagnosis are:\n\n1. Increased sweating\n2. Pain in the back of the head, neck, and forehead that is sensitive and exhausting\n3. Presence of a rash with fever, chills, and itching\n4. The rash is pink and located on the back of the neck, side of the neck, and forehead\n5. The pain caused by the rash is mild (0)\n6. No other systemic symptoms like loss of appetite, nasal congestion, or cough are present\n\nWhile some symptoms like fever, chills, and itching could also be related to influenza, HIV, or other conditions, the presence of urticaria (hives) with no other significant systemic symptoms makes Urticaria a more likely diagnosis.\n\nOther options like Influenza, HIV (initial infection), Pneumonia, Bronchitis, Tuberculosis, Acute Rhinosinusitis, Chronic Rhinosinusitis, Scombroid food poisoning, Chagas, and Anaphylaxis do not fit well with the patient's symptoms.",
+      "label": "influenza"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: brilliant. now using it for 7 months and it feels good bcz its gives very good speed and the coverage area is also very good very happy with this routerDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Positive.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:1. Review: horrible. not goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative",
+      "label": "negative"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: super!. good productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The rating is 5 and the review contains two positive phrases (\"super!\" and \"good product\"). Therefore, I would categorize this as a \"positive\" review.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: really nice. nice productdelivery quick responseDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The correct answer is: positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 44; Sex: F; Initial evidence: Do you have pain that is increased when you breathe in deeply? Yes; Evidence: ; Have you recently had a viral infection? Yes; Have you ever had a pericarditis? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: a knife stroke; Characterize your pain: sharp; Do you feel pain somewhere? lower chest; Do you feel pain somewhere? upper chest; Do you feel pain somewhere? breast(R); Do you feel pain somewhere? breast(L); How intense is the pain? 8; Does the pain radiate to another location? thoracic spine; Does the pain radiate to another location? posterior chest wall(R); How precisely is the pain located? 8; How fast did the pain appear? 4; Do you feel your heart is beating fast (racing), irregularly (missing a beat) or do you feel palpitations? Yes; Have you traveled out of the country in the last 4 weeks? N; Are your symptoms worse when lying down and alleviated while sitting up? Yes; Do you have pain that is increased when you breathe in deeply? Yes. What is the diagnosis? Select one answer among ['pericarditis', 'possible nstemi / stemi', 'pulmonary embolism', 'panic attack', 'unstable angina', 'boerhaave', 'psvt', 'stable angina', 'gerd', 'scombroid food poisoning', 'spontaneous pneumothorax'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's symptoms and history, the most likely diagnosis is:\n\n**Possible NSTEMI / STEMI**\n\nReasoning:\n\n* The patient has chest pain that is sharp and stabbing in nature (characterized as a \"knife stroke\"), which suggests an acute coronary syndrome.\n* The location of the pain is primarily in the lower chest, which can be consistent with an inferior wall myocardial infarction.\n* The patient reports palpitations and a racing heartbeat, which are common symptoms of NSTEMI/STEMI.\n* The pain worsens when lying down and improves when sitting up, which is a classic symptom for cardiac conditions.\n* Although the patient has a history of viral infections, this does not necessarily preclude a cardiac cause.\n\nWhile pericarditis can also present with sharp chest pain, it is often associated with a more diffuse or pleuritic pain that worsens with movement. The absence of specific pericardial symptoms such as pericardial friction rub or elevated jugular venous pressure makes NSTEMI/STEMI a more likely diagnosis.\n\nThe other options can be ruled out based on the following:\n\n* Pericarditis: not supported by specific pericardial symptoms.\n* Pulmonary embolism: typically presents with sudden onset of sharp, pleuritic chest pain that worsens with deep breathing or coughing.\n* Panic attack: would typically present with sudden onset of fear and anxiety, accompanied by palpitations but without the characteristic cardiac-specific symptoms seen in this patient.\n* Unstable angina: should be suspected if the patient has a history of coronary artery disease and presents with typical chest pain that worsens with exertion or stress.\n* Boerhaave: is an acute perforation of the esophagus, which would typically present with severe retrosternal pain accompanied by vomiting and difficulty swallowing.\n* PSVT: should be suspected if the patient has a history of arrhythmias but does not have a clear link to cardiac events such as NSTEMI/STEMI.\n* Gastroesophageal reflux disease (GERD): is unlikely to present with acute chest pain that worsens when lying down and improves when sitting up.\n* Scombroid food poisoning: would typically present with nausea, vomiting, and diarrhea after consuming spoiled fish or seafood.\n\nNote that a definitive diagnosis of NSTEMI/STEMI should be made by further testing such as cardiac biomarkers (e.g. troponin), ECG, and possibly coronary angiography to confirm the presence of myocardial infarction.",
+      "label": "pericarditis"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: terrific. greatDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Positive.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: must buy!. this a good product and the customer service is also goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The answer is: positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: worth every penny. after 15 daysDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative",
+      "label": "neutral"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: perfect product!. excellent budget friendlyDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The answer is: positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: excellent. osm dinner set my mom is so happyDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: excellent. wrost ouality after some times prints wanishedDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would classify this review as \"negative\". The reviewer initially calls it \"excellent\" but then immediately follows up with a criticism, stating that the product's quality worsened over time (specifically, the ink stopped printing). This suggests that while they were pleased at first, their overall experience was marred by a significant issue.",
+      "label": "neutral"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 41; Sex: F; Initial evidence: Do you have a cough? Yes; Evidence: ; Do you have chronic pancreatitis? Yes; Have you had diarrhea or an increase in stool frequency? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: a cramp; Do you feel pain somewhere? flank(L); Do you feel pain somewhere? hypochondrium(L); Do you feel pain somewhere? epigastric; How intense is the pain? 4; Does the pain radiate to another location? thoracic spine; How precisely is the pain located? 3; How fast did the pain appear? 2; Are you significantly overweight compared to people of the same height as you? Yes; Do you smoke cigarettes? Yes; What color is the rash? NA; Do your lesions peel off? N; Is the rash swollen? 0; Where is the affected region located? nowhere; How intense is the pain caused by the rash? 0; Is the lesion (or are the lesions) larger than 1cm? N; How severe is the itching? 0; Are you feeling nauseous or do you feel like vomiting? Yes; Have you had an involuntary weight loss over the last 3 months? Yes; Do you have pale stools and dark urine? Yes; Do you have a cough? Yes; Have you traveled out of the country in the last 4 weeks? N. What is the diagnosis? Select one answer among ['pancreatic neoplasm', 'bronchitis', 'possible nstemi / stemi', 'chagas'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's information and dialog with the doctor, the most likely diagnosis is:\n\n**Pancreatic Neoplasm**\n\nHere's why:\n\n1. Chronic pancreatitis: The patient has a history of chronic pancreatitis, which can increase the risk of pancreatic cancer.\n2. Abdominal pain: The patient experiences abdominal pain, including epigastric pain, which is consistent with pancreatic pathology.\n3. Weight loss and fatigue: The patient has experienced involuntary weight loss over the last 3 months, which is a common symptom of pancreatic neoplasm.\n4. Pale stools and dark urine: These symptoms are also consistent with pancreatic insufficiency, which can occur in pancreatic cancer.\n5. Nausea and vomiting: The patient reports feeling nauseous and like vomiting, which is a common side effect of pancreatic cancer.\n\nWhile the other options could be considered based on some of the symptoms, they are not as strongly supported by the information provided:\n\n* Bronchitis might explain the cough, but it doesn't account for the other symptoms.\n* Possible NSTEMI/STEMI would likely involve more cardiovascular-related symptoms and lab results (e.g., troponin levels).\n* Chagas disease is unlikely given the patient's age, location of pain, and absence of specific travel history.\n\nKeep in mind that a definitive diagnosis requires further testing and evaluation, such as imaging studies (e.g., CT or MRI scan) and possibly endoscopic ultrasound.",
+      "label": "pancreatic neoplasm"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: good choice. niceDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer seems to be giving a general endorsement without providing specific details or feedback about the product itself.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: delightful. nice qualityDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The rating is a 4 and the words used are \"delightful\" and \"nice quality\". Therefore, I would classify this as \"positive\".",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: nan. niceDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer hasn't mentioned anything about the quality, performance, or features of the product, only that it's \"nice\".",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: value-for-money. nice productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer mentions both \"value-for-money\" and \"nice product\", indicating a generally satisfactory experience without expressing strong emotions or reservations.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: super!. over all goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer uses some positive language (\"super!\") but also mentions that it's \"overall\" good, implying a lack of enthusiasm and a somewhat lukewarm assessment.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: must buy!. good air purifierDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would classify this review as \"positive\". The reviewer uses the phrase \"must buy!\" to emphasize their recommendation, and also states that it's a \"good air purifier\", which indicates a favorable opinion of the product.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 78; Sex: F; Initial evidence: Have you had significantly increased sweating? Yes; Evidence: ; Are you infected with the human immunodeficiency virus (HIV)? Yes; Have you had significantly increased sweating? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: heavy; Characterize your pain: sharp; Characterize your pain: sickening; Characterize your pain: scary; Do you feel pain somewhere? lower chest; Do you feel pain somewhere? upper chest; Do you feel pain somewhere? breast(R); Do you feel pain somewhere? breast(L); Do you feel pain somewhere? epigastric; How intense is the pain? 9; Does the pain radiate to another location? biceps(R); Does the pain radiate to another location? biceps(L); Does the pain radiate to another location? thyroid cartilage; Does the pain radiate to another location? thoracic spine; Does the pain radiate to another location? shoulder(R); How precisely is the pain located? 3; How fast did the pain appear? 9; Do you have diabetes? Yes; Are you significantly overweight compared to people of the same height as you? Yes; Do you have high cholesterol or do you take medications to treat high cholesterol? Yes; Do you smoke cigarettes? Yes; Do you have high blood pressure or do you take medications to treat high blood pressure? Yes; Do you have a problem with poor circulation? Yes; Are you a former smoker? Yes; Have you traveled out of the country in the last 4 weeks? N; Do you have close family members who had a cardiovascular disease problem before the age of 50? Yes. What is the diagnosis? Select one answer among ['possible nstemi / stemi', 'pericarditis', 'anaphylaxis', 'panic attack'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the provided information, the doctor's likely diagnosis would be 'pericarditis'. Here's why:\n\n1. Age: The patient is 78 years old, which is an advanced age. Pericarditis can occur at any age but is more common in older adults.\n2. Symptoms: The patient presents with significantly increased sweating, sharp and sickening chest pain that radiates to the upper chest, breast, epigastric region, biceps, thoracic spine, shoulder, and has a high intensity of 9/10. These symptoms are consistent with pericarditis, which is characterized by inflammation of the pericardium (the sac surrounding the heart).\n3. Other medical conditions: The patient has several comorbidities that can contribute to pericarditis, including diabetes, being significantly overweight, having high cholesterol or taking medications for it, having high blood pressure or taking medications for it, and having poor circulation.\n4. Recent travel history: While there is no mention of recent travel out of the country, some cases of pericarditis are associated with viral infections, which could be a concern if the patient had traveled recently.\n\nPericarditis was not included as an option in the original question choices, but based on the information provided, it seems to be the most likely diagnosis.",
+      "label": "possible nstemi / stemi"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: nan. goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The review is very brief and doesn't provide any specific information about the product, but it does contain a rating of 4, which suggests a generally positive assessment.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: perfect product!. nice productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The review is \"neutral\". The reviewer uses very general and vague language, stating only that the product is \"perfect\" and \"nice\", without providing any specific details or reasons why they feel this way. There is no strong emotion or detail to indicate a high level of satisfaction or dissatisfaction.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: wonderful. awesome ipad could have been more compatible thoughDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 76; Sex: F; Initial evidence: Did you lose consciousness? Yes; Evidence: ; Do you have an active cancer? Yes; Have you been coughing up blood? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: a knife stroke; Characterize your pain: sharp; Do you feel pain somewhere? side of the chest(R); Do you feel pain somewhere? side of the chest(L); Do you feel pain somewhere? scapula(R); Do you feel pain somewhere? scapula(L); Do you feel pain somewhere? posterior chest wall(R); How intense is the pain? 4; Does the pain radiate to another location? side of the chest(R); Does the pain radiate to another location? side of the chest(L); Does the pain radiate to another location? scapula(R); Does the pain radiate to another location? scapula(L); Does the pain radiate to another location? posterior chest wall(R); How precisely is the pain located? 8; How fast did the pain appear? 2; Do you currently take hormones? Yes; Have you ever had deep vein thrombosis (DVT)? Yes; Do you have swelling in one or more areas of your body? Yes; Where is the swelling located? posterior aspect of the ankle(R); Did you lose consciousness? Yes; Have you had surgery within the last month? Yes; Have you traveled out of the country in the last 4 weeks? North America; Do you have pain that is increased when you breathe in deeply? Yes. What is the diagnosis? Select one answer among ['pulmonary embolism', 'localized edema', 'possible nstemi / stemi', 'unstable angina', 'stable angina'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the provided information, the most likely diagnosis is:\n\n**Pulmonary Embolism**\n\nHere's why:\n\n1. The patient has a history of deep vein thrombosis (DVT), which increases the risk of developing pulmonary embolism.\n2. The patient has been coughing up blood and experiencing sharp pain that radiates to the side of the chest, scapula, and posterior chest wall, consistent with pleuritic pain often associated with pulmonary embolism.\n3. The patient's pain is intense (8/10) and worsens with deep breathing, which is also a characteristic symptom of pulmonary embolism.\n4. The patient has recently undergone surgery, which increases the risk of developing venous thromboembolism, including pulmonary embolism.\n\nWhile other options like stable or unstable angina, localized edema, or NSTE-STEMI are possible, they do not as strongly fit with the combination of symptoms and history presented by this patient.",
+      "label": "pulmonary embolism"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: nan. without any doubts go aheadDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative. The review is extremely brief and doesn't provide any meaningful feedback or assessment of the product, implying that it may be a very poor or inadequate review.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 26; Sex: F; Initial evidence: Do you have swelling in one or more areas of your body? Yes; Evidence: ; Have you been in contact with or ate something that you have an allergy to? Yes; Have you had diarrhea or an increase in stool frequency? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: a knife stroke; Do you feel pain somewhere? flank(L); Do you feel pain somewhere? iliac fossa(L); Do you feel pain somewhere? hypochondrium(L); Do you feel pain somewhere? epigastric; How intense is the pain? 8; Does the pain radiate to another location? nowhere; How precisely is the pain located? 6; How fast did the pain appear? 6; Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for? Yes; What color is the rash? pink; Do your lesions peel off? N; Is the rash swollen? 2; Where is the affected region located? back of the neck; Where is the affected region located? biceps(L); Where is the affected region located? mouth; Where is the affected region located? thyroid cartilage; Where is the affected region located? ankle(R); How intense is the pain caused by the rash? 1; Is the lesion (or are the lesions) larger than 1cm? Y; How severe is the itching? 7; Do you have swelling in one or more areas of your body? Yes; Where is the swelling located? forehead; Where is the swelling located? cheek(R); Where is the swelling located? cheek(L); Have you noticed a high pitched sound when breathing in? Yes; Have you traveled out of the country in the last 4 weeks? N; Have you noticed a wheezing sound when you exhale? Yes; Are you more likely to develop common allergies than the general population? Yes. What is the diagnosis? Select one answer among ['anaphylaxis', 'gerd', 'localized edema', 'unstable angina', 'larygospasm', 'pancreatic neoplasm', 'inguinal hernia', 'stable angina', 'possible nstemi / stemi', 'epiglottitis', 'chagas', 'pericarditis'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's symptoms and history, I would select 'gerd' (Gastroesophageal Reflux Disease) as the diagnosis.\n\nThe patient presents with:\n\n1. Swelling in one area of the body ( cheek, forehead )\n2. Itching ( 7/10 ) on the affected regions\n3. A high-pitched sound when breathing in\n4. Wheezing sound when exhaling\n5. Diarrhea or increased stool frequency\n6. Pain characterized as a knife stroke and located in the epigastric region\n\nThe presence of symptoms such as itching, wheezing, and diarrhea, particularly with a high-pitched sound when breathing in, is suggestive of gastroesophageal reflux disease (GERD). GERD can also cause pain in the epigastrium, which matches the patient's description.\n\nWhile other conditions like anaphylaxis or laryngospasm could be considered due to the presence of swelling and high-pitched sounds, the combination of symptoms is more consistent with GERD. Other options like localized edema, unstable angina, or pericarditis do not fit as well with the patient's presentation.\n\nIt's worth noting that the patient's history of allergies and the presence of pain in multiple areas of the body could be related to other conditions, but based on the symptoms presented, GERD is a more likely diagnosis.",
+      "label": "anaphylaxis"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: brilliant. good productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would classify this product review as \"positive\". The reviewer uses strong language (\"brilliant\") to describe the product, and also mentions that it's a \"good product\", indicating overall satisfaction with their purchase.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: highly recommended. goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The answer is: positive. The reviewer uses the phrase \"highly recommended\" and describes the product as \"good\", indicating a strong endorsement of the product.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:1. Review: horrible. poor qualityDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative",
+      "label": "negative"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:2. Review: bad quality. first when i received there is 2 jar instead of 3there is no spatulaand when it replaced the cover of the grinding mixture is missingi m confused is it real product orDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative.",
+      "label": "negative"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: terrific purchase. bought this after looking for other brands to gift to my friend i got a awesome review from my friend which fulfil his requirement so felt like worth to buy itDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The review is positive.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: wonderful. good for pooja long time brunDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:2. Review: slightly disappointed. mobile displays not working after 2 monthsDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer mentions being \"slightly disappointed\" and states a specific issue (mobile displays not working), but their tone is calm and doesn't use strong language, suggesting that they don't have a strongly negative opinion.",
+      "label": "negative"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 21; Sex: F; Initial evidence: Do you have pain somewhere, related to your reason for consulting? Yes; Evidence: ; Have you ever had fluid in your lungs? Yes; Do you currently undergo dialysis? Yes; Have you had significantly increased sweating? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: heavy; Do you feel pain somewhere? ankle(L); Do you feel pain somewhere? side of the chest(R); Do you feel pain somewhere? calf(R); Do you feel pain somewhere? breast(R); Do you feel pain somewhere? posterior chest wall(R); How intense is the pain? 2; Does the pain radiate to another location? biceps(L); Does the pain radiate to another location? chin; Does the pain radiate to another location? jaw; Does the pain radiate to another location? scapula(L); Does the pain radiate to another location? shoulder(R); How precisely is the pain located? 5; How fast did the pain appear? 1; Do you have bouts of choking or shortness of breath that wake you up at night? Yes; Do you have high blood pressure or do you take medications to treat high blood pressure? Yes; Do you have heart failure? Yes; Do you have swelling in one or more areas of your body? Yes; Where is the swelling located? ankle(R); Where is the swelling located? ankle(L); Where is the swelling located? calf(L); Where is the swelling located? tibia(R); Have you noticed any new fatigue, generalized and vague discomfort, diffuse (widespread) muscle aches or a change in your general well-being related to your consultation today? Yes; Have you traveled out of the country in the last 4 weeks? N; Are your symptoms worse when lying down and alleviated while sitting up? Yes; Do you have symptoms that are increased with physical exertion but alleviated with rest? Yes. What is the diagnosis? Select one answer among ['acute pulmonary edema', 'unstable angina', 'possible nstemi / stemi', 'stable angina', 'myocarditis', 'chagas', 'pericarditis', 'atrial fibrillation', 'anaphylaxis', 'panic attack'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's information and dialog with the doctor, the diagnosis is:\n\n**Possible NSTEMI / STEMI**\n\nHere's why:\n\n1. Age: The patient is 21 years old, which is relatively young for a heart-related condition.\n2. Initial evidence of pain and fluid in the lungs\n3. History of dialysis (which can increase the risk of cardiovascular disease)\n4. Significant sweating and nocturnal dyspnea (shortness of breath at night)\n5. Chest pain radiating to other locations, such as the arm, jaw, and scapula\n6. Pain intensity is moderate (2/10) but persistent\n7. Presence of swelling in the ankles and calf\n8. Fatigue, generalized discomfort, and diffuse muscle aches\n9. Symptoms worsen when lying down and alleviate with sitting up\n\nWhile the patient's age is relatively young for a heart attack, the combination of symptoms and risk factors (dialysis, high blood pressure, and history of fluid in the lungs) suggest that NSTEMI or STEMI should be considered as possible diagnoses.\n\nIt's worth noting that without further testing (e.g., ECG, troponin levels, echocardiogram), it's difficult to confirm the diagnosis. However, based on the patient's presentation, NSTEMI or STEMI are strong possibilities.",
+      "label": "acute pulmonary edema"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: pretty good. goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer uses vague and general language to describe the product, without providing any specific details or strengths that might indicate a positive opinion, or any criticisms that might suggest a negative opinion.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 26; Sex: M; Initial evidence: Do you feel your heart is beating very irregularly or in a disorganized pattern? Yes; Evidence: ; Have you been diagnosed with hyperthyroidism? Yes; Do you have a known issue with one of your heart valves? Yes; Do you have severe Chronic Obstructive Pulmonary Disease (COPD)? Yes; Are you experiencing shortness of breath or difficulty breathing in a significant way? Yes; Do you feel slightly dizzy or lightheaded? Yes; Have you ever had a heart attack or do you have angina (chest pain)? Yes; Do you feel your heart is beating very irregularly or in a disorganized pattern? Yes; Have you traveled out of the country in the last 4 weeks? N. What is the diagnosis? Select one answer among ['atrial fibrillation', 'psvt', 'pulmonary embolism', 'anemia', 'guillain-barré syndrome', 'scombroid food poisoning', 'acute dystonic reactions', 'myasthenia gravis', 'anaphylaxis', 'myocarditis', 'sle', 'possible nstemi / stemi', 'chagas'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's information and dialog with the doctor, the most likely diagnosis is:\n\n**Atrial Fibrillation**\n\nReasoning:\n\n1. The patient mentions that their heart feels irregular or in a disorganized pattern, which is consistent with atrial fibrillation.\n2. They have a known issue with one of their heart valves, which increases the risk of atrial fibrillation.\n3. They also report experiencing dizziness and shortness of breath, symptoms that can be associated with atrial fibrillation due to reduced cardiac output.\n4. The patient's history of hyperthyroidism is relevant, as thyroid disorders are known to contribute to the development of atrial fibrillation.\n\nWhile other options cannot be ruled out entirely, based on the information provided, atrial fibrillation is the most likely diagnosis.",
+      "label": "atrial fibrillation"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 55; Sex: F; Initial evidence: Do you have pain somewhere, related to your reason for consulting? Yes; Evidence: ; Do you have chronic pancreatitis? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: sensitive; Do you feel pain somewhere? hypochondrium(L); Do you feel pain somewhere? belly; How intense is the pain? 3; Does the pain radiate to another location? nowhere; How precisely is the pain located? 5; How fast did the pain appear? 5; Are you significantly overweight compared to people of the same height as you? Yes; Do you constantly feel fatigued or do you have non-restful sleep? Yes; Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for? Yes; What color is the rash? yellow; Do your lesions peel off? N; Is the rash swollen? 0; Where is the affected region located? epigastric; How intense is the pain caused by the rash? 2; Is the lesion (or are the lesions) larger than 1cm? Y; How severe is the itching? 1; Do you have pale stools and dark urine? Yes; Do you have a cough? Yes; Have you traveled out of the country in the last 4 weeks? N; Are there members of your family who have been diagnosed with pancreatic cancer? Yes. What is the diagnosis? Select one answer among ['pancreatic neoplasm', 'bronchitis', 'scombroid food poisoning', 'anemia', 'chagas', 'anaphylaxis', 'pneumonia'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's information and dialog with the doctor, the most likely diagnosis is:\n\n**Pancreatic Neoplasm**\n\nThe reasons for this conclusion are:\n\n1. Chronic pancreatitis: The patient has a history of chronic pancreatitis, which increases the risk of developing pancreatic cancer.\n2. Weight gain: The patient's significant weight gain compared to their height suggests insulin resistance and increased risk of pancreatic cancer.\n3. Fatigue: The patient experiences constant fatigue, which is a common symptom of various conditions, including pancreatic cancer.\n4. Yellow rash: The yellow rash on the epigastric region could be a skin manifestation of pancreatic cancer or a related condition such as jaundice.\n5. Pale stools and dark urine: These symptoms are indicative of liver dysfunction, which can occur in pancreatic cancer due to bile duct obstruction.\n6. Cough: A cough can be a symptom of pancreatic cancer, possibly due to pleural effusion (fluid accumulation in the lungs) or mediastinal mass.\n7. Family history: The patient's family members have been diagnosed with pancreatic cancer, increasing the likelihood of this diagnosis.\n\nWhile other options like bronchitis, scombroid food poisoning, anemia, chagas, anaphylaxis, and pneumonia could be considered based on some symptoms (e.g., cough), they do not fully explain the constellation of findings presented by the patient.",
+      "label": "pancreatic neoplasm"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: perfect product!. goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: terrific purchase. in offroad i feel very comfortable to ride this cycle the brakeing also good and the suspension also work good in this budgetDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The rating is 5, which suggests a perfect score, but the review itself only contains positive language. It mentions that the product feels \"terrific\" and works well in various aspects such as off-road riding, braking, and suspension, without mentioning any negative points. Therefore, I would classify this review as \"positive\".",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:1. Review: utterly disappointed. very bad itemDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative.",
+      "label": "negative"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: worth the money. nice productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The review is \"positive\" and also contains a more detailed rating of 4.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: perfect product!. starting is start for ride than it is very easy good l love my skateboardDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would classify this review as \"positive\". The reviewer uses enthusiastic language such as \"perfect product!\" and expresses their satisfaction by stating that the product exceeded their expectations (\"starting is start for ride\"). They also use a personal pronoun (\"good\") to describe the product, which suggests they are very happy with it.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: awesome. goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would classify this review as \"positive\". The reviewer uses strong language such as \"awesome\" to express their satisfaction with the product.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 26; Sex: M; Initial evidence: Do you constantly feel fatigued or do you have non-restful sleep? Yes; Evidence: ; Do you have a poor diet? Yes; Do you have any family members who have been diagnosed with anemia? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: tugging; Characterize your pain: a cramp; Characterize your pain: exhausting; Do you feel pain somewhere? forehead; How intense is the pain? 5; Does the pain radiate to another location? nowhere; How precisely is the pain located? 2; How fast did the pain appear? 0; Are you experiencing shortness of breath or difficulty breathing in a significant way? Yes; Do you feel lightheaded and dizzy or do you feel like you are about to faint? Yes; Do you constantly feel fatigued or do you have non-restful sleep? Yes; Do you have chronic kidney failure? Yes; Have you recently had stools that were black (like coal)? Yes; Are you taking any new oral anticoagulants ((NOACs)? Yes; Is your skin much paler than usual? Yes; Have you traveled out of the country in the last 4 weeks? N; Is your BMI less than 18.5, or are you underweight? Yes. What is the diagnosis? Select one answer among ['anemia', 'anaphylaxis', 'myocarditis', 'acute pulmonary edema', 'panic attack', 'guillain-barré syndrome', 'chagas', 'sle', 'acute dystonic reactions', 'myasthenia gravis', 'cluster headache'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's information and dialog with the doctor, the diagnosis is likely 'anemia'. Here's why:\n\n* The patient has symptoms of fatigue, non-restful sleep, poor diet, and tugging/pain sensations that are characterized as exhausting.\n* The patient also reports pain in their forehead, which is intense (5/10) but does not radiate to another location.\n* The patient experiences shortness of breath, lightheadedness, and dizziness, which could be related to anemia.\n* The patient has a family history of anemia, which increases the likelihood of this diagnosis.\n* The patient's BMI is less than 18.5, indicating underweight status, which can contribute to anemia.\n\nWhile other conditions like panic attack or cluster headache could potentially cause some of these symptoms, the presence of fatigue, poor diet, and family history of anemia make anemia a more likely diagnosis.",
+      "label": "anemia"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: terrific. value for moneyDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The rating is not explicitly stated in the review, but based on the content of the review (\"terrific\" and \"value for money\"), I would say it's neutral. The reviewer seems to be expressing satisfaction with the product, but without mentioning any specific features or improvements that they particularly liked. A more detailed review might have been expected to provide a clearer indication of whether the review was positive or not.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: terrific. i love this product while ordering i am afraid but when i received it and used this is waoowDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would classify this product review as \"positive\". Although the reviewer initially expresses fear during the ordering process, their tone changes to one of excitement and surprise (\"is waoow\") after receiving and using the product, indicating a positive outcome.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: pretty good. goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer uses two positive adjectives (\"pretty\" and \"good\"), but they are not particularly strong or detailed.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: awesome. goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: highly recommended. love the productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 52; Sex: M; Initial evidence: Have you been coughing up blood? Yes; Evidence: ; Have you been coughing up blood? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: sensitive; Characterize your pain: a knife stroke; Do you feel pain somewhere? side of the chest(R); Do you feel pain somewhere? side of the chest(L); Do you feel pain somewhere? scapula(R); Do you feel pain somewhere? scapula(L); Do you feel pain somewhere? posterior chest wall(R); How intense is the pain? 9; Does the pain radiate to another location? side of the chest(R); Does the pain radiate to another location? side of the chest(L); Does the pain radiate to another location? scapula(R); Does the pain radiate to another location? scapula(L); Does the pain radiate to another location? breast(R); How precisely is the pain located? 3; How fast did the pain appear? 2; Are you experiencing shortness of breath or difficulty breathing in a significant way? Yes; Have you ever had deep vein thrombosis (DVT)? Yes; Have you been unable to move or get up for more than 3 consecutive days within the last 4 weeks? Yes; Do you have swelling in one or more areas of your body? Yes; Where is the swelling located? posterior aspect of the ankle(R); Where is the swelling located? posterior aspect of the ankle(L); Did you lose consciousness? Yes; Have you had surgery within the last month? Yes; Have you traveled out of the country in the last 4 weeks? N; Do you have pain that is increased when you breathe in deeply? Yes. What is the diagnosis? Select one answer among ['pulmonary embolism', 'pulmonary neoplasm', 'acute pulmonary edema', 'possible nstemi / stemi', 'panic attack', 'spontaneous pneumothorax', 'unstable angina', 'myocarditis', 'stable angina', 'guillain-barré syndrome', 'atrial fibrillation', 'acute dystonic reactions', 'myasthenia gravis', 'anemia', 'sarcoidosis', 'psvt', 'anaphylaxis'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's information and dialog with the doctor, the diagnosis is:\n\n**Pulmonary Embolism**\n\nThe patient presents with several symptoms that are consistent with pulmonary embolism (PE), including:\n\n1. Coughing up blood\n2. Sudden onset of severe chest pain\n3. Pain radiating to the side of the chest and scapula, which worsens with deep breathing\n4. Shortness of breath\n5. Swelling in the posterior aspect of the ankle\n6. Recent travel history, although this is not a typical risk factor for PE\n7. History of deep vein thrombosis (DVT)\n8. Sudden onset of pain and shortness of breath\n\nThe other options are less likely based on the patient's presentation:\n\n* Pulmonary neoplasm would typically present with more persistent symptoms and potentially different radiographic findings.\n* Acute pulmonary edema is unlikely given the lack of heart failure symptoms and normal lung sounds.\n* Panic attack, myasthenia gravis, and anaphylaxis do not fit the patient's presentation.\n* Sarcoidosis and psvt are less likely given the acute onset and specific symptoms.\n* Atrial fibrillation and myocarditis may be considered if there were more heart-related symptoms.\n\nThe doctor should consider ordering imaging studies (e.g., CT pulmonary angiogram) to confirm the diagnosis of PE.",
+      "label": "pulmonary embolism"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: delightful. good quality use full for carDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: mind-blowing purchase. superb nice qualityDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Positive.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:3. Review: good. i used it after long time in my tour pants are little bit small in size silicon cap was good and googles was leaking from side nose and ear clips was okoverall if you want low budget items than its goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer mentions both positive and negative aspects of the product, such as the silicon cap being \"good\" and the goggles leaking. They also provide a fair assessment by saying it's a good option for those looking for low-budget items. However, they don't seem overly enthusiastic or impressed with the product overall.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: just wow!. 0k goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:1. Review: not specified. cheap stuffDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative.",
+      "label": "negative"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:2. Review: nan. very bad shoes wast of moneyDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would categorize this review as \"negative\". The reviewer mentions that the shoes are \"very bad\" and that they were a \"waste of money\", which clearly indicates a strong negative opinion.",
+      "label": "negative"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:3. Review: decent product. freedish or wifi casting achi hai nice productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer mentions that the product is \"decent\" and has some positive aspects (\"freedish or wifi casting achhi hai\"), but doesn't use overly enthusiastic language or give a high rating, indicating a neutral tone.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: very good. wellDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 71; Sex: M; Initial evidence: Are your symptoms worse when lying down and alleviated while sitting up? Yes; Evidence: ; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: haunting; Characterize your pain: sensitive; Characterize your pain: tugging; Characterize your pain: scary; Do you feel pain somewhere? upper chest; Do you feel pain somewhere? epigastric; How intense is the pain? 5; Does the pain radiate to another location? lower chest; Does the pain radiate to another location? upper chest; How precisely is the pain located? 4; How fast did the pain appear? 1; Are you significantly overweight compared to people of the same height as you? Yes; Do you drink alcohol excessively or do you have an addiction to alcohol? Yes; Do you smoke cigarettes? Yes; Do you have a hiatal hernia? Yes; Do you have asthma or have you ever had to use a bronchodilator in the past? Yes; Have you traveled out of the country in the last 4 weeks? N; Do you have symptoms that get worse after eating? Yes; Are your symptoms worse when lying down and alleviated while sitting up? Yes. What is the diagnosis? Select one answer among ['gerd', 'pericarditis', 'possible nstemi / stemi', 'pancreatic neoplasm'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the provided information, I would select \"GERD\" (Gastroesophageal Reflux Disease) as the most likely diagnosis.\n\nHere's why:\n\n1. The patient experiences worsening symptoms when lying down and alleviation while sitting up, which is a classic symptom of GERD.\n2. The pain is described as haunting, sensitive, tugging, and scary, which are common descriptors for chest pain related to GERD.\n3. The pain is localized to the upper chest and epigastric area, which is consistent with GERD.\n4. The intensity of the pain (5/10) and its rapid onset suggest an acute episode of GERD.\n5. The patient's history of significant overweight, excessive alcohol consumption, smoking, and previous bronchodilator use could contribute to their GERD symptoms.\n6. The presence of asthma may also be related to GERD, as some people with asthma can experience worsened symptoms when lying down due to the increased pressure in the chest.\n\nWhile the patient's hiatal hernia and other medical conditions should not be ignored, the combination of these factors suggests that GERD is a likely diagnosis.",
+      "label": "gerd"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: perfect product!. goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would rate this as \"negative\" because it doesn't contain any positive comments about the product beyond stating that it is \"good\", which implies a lack of enthusiasm and specificity.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:1. Review: did not meet expectations. worst packing and get broken productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative.",
+      "label": "negative"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 23; Sex: F; Initial evidence: Do you have pain somewhere, related to your reason for consulting? Yes; Evidence: ; Do you have metastatic cancer? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: a knife stroke; Characterize your pain: violent; Characterize your pain: sharp; Do you feel pain somewhere? lower chest; Do you feel pain somewhere? side of the chest(L); Do you feel pain somewhere? posterior chest wall(R); How intense is the pain? 6; Does the pain radiate to another location? posterior chest wall(L); How precisely is the pain located? 9; How fast did the pain appear? 8; Do you drink alcohol excessively or do you have an addiction to alcohol? Yes; Are you being treated for osteoporosis? Yes; Do you have a cough? Yes; Have you traveled out of the country in the last 4 weeks? N; Do you have pain that is increased with movement? Yes; Do you have pain that is increased when you breathe in deeply? Yes. What is the diagnosis? Select one answer among ['spontaneous rib fracture', 'bronchitis', 'possible nstemi / stemi', 'pulmonary embolism', 'unstable angina', 'boerhaave', 'gerd', 'stable angina', 'spontaneous pneumothorax'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the provided information, the most likely diagnosis is:\n\n**Spontaneous Rib Fracture**\n\nReasons for this diagnosis:\n\n1. The patient has a history of excessive alcohol consumption, which can contribute to osteoporosis and an increased risk of rib fractures.\n2. The patient reports pain that is intense (6/10), sharp, and violent, with a description similar to a knife stroke, which is consistent with a rib fracture.\n3. The location of the pain on the lower chest, side of the chest, and posterior chest wall suggests a rib fracture.\n4. The patient reports pain that radiates to another location (posterior chest wall), indicating involvement of multiple ribs or segments.\n5. The rapid onset of pain (8/10) further supports this diagnosis.\n6. The presence of osteoporosis treatment (yes) increases the risk of spontaneous rib fractures due to weakened bone structure.\n\nOther potential diagnoses, such as pulmonary embolism, pneumothorax, or angina, are less likely given the information provided. While bronchitis and GERD can cause chest pain, the location and intensity of the pain described do not align with these conditions. The patient's history of excessive alcohol consumption also makes osteoporosis a relevant factor in this case.",
+      "label": "spontaneous rib fracture"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: must buy!. so nice product must buyDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The rating is 5 and the review says \"must buy\" and \"so nice product\". This indicates a very positive review. \n\nAnswer: positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: not specified. good oneDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: fabulous!. super marvelousDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer uses very positive adjectives (\"fabulous\" and \"super marvelous\"), but the rating is 5, which implies a high level of satisfaction. However, the tone of the review doesn't convey any specific details about the product itself, suggesting that the reviewer might be using superlatives for effect rather than providing an objective assessment.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:1. Review: absolute rubbish!. quantity is lessDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative.",
+      "label": "neutral"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: must buy!. love the quality is just osm fantastic unbelievableDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The review is \"positive\"",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: perfect product!. awesomeDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The rating is 5 (which suggests a perfect score), and the review uses superlatives like \"perfect\" and \"awesome\", indicating extreme praise. Therefore, I would classify this review as \"positive\".",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: great product. the product is worth for money very good finishing and packing thank you flipkartDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The correct answer is: positive.\n\nAlthough the reviewer mentions a few specific positive aspects of the product (good finishing, good packing), the overall tone of the review is overwhelmingly positive. The use of phrases like \"great product\" and \"worth for money\" also reinforces this assessment.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:1. Review: terrible product. not goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The review is \"negative\" because it uses strong language (\"terrible\") to describe the product and explicitly states that it's \"not good\".",
+      "label": "negative"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: must buy!. works really great just one flaw is that if it had inbuilt battery beside this everything is very goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The review is \"positive\". Although the reviewer mentions a \"flaw\" and wishes for an inbuilt battery, their overall tone and language (\"must buy!\") suggest a strong endorsement of the product.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: great product. nice one and charges the phone faster however samsungs decision to sell charger separately is not good when chinese competitors are providing faster charges bundled with phoneDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would classify this review as \"mixed\" rather than \"positive\", \"neutral\", or \"negative\". The reviewer mentions two positive aspects of the product (charging speed and a \"nice one\"), but also expresses disappointment with Samsung's decision to sell the charger separately, which is a negative aspect.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: not specified. goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: fabulous!. nice productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: terrific purchase. excellentDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 23; Sex: M; Initial evidence: Are you experiencing shortness of breath or difficulty breathing in a significant way? Yes; Evidence: ; Have you ever had fluid in your lungs? Yes; Do you currently undergo dialysis? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: sensitive; Characterize your pain: tugging; Characterize your pain: heavy; Do you feel pain somewhere? lower chest; Do you feel pain somewhere? ankle(R); Do you feel pain somewhere? side of the chest(R); Do you feel pain somewhere? posterior chest wall(R); Do you feel pain somewhere? posterior chest wall(L); How intense is the pain? 5; Does the pain radiate to another location? biceps(R); Does the pain radiate to another location? biceps(L); Does the pain radiate to another location? chin; Does the pain radiate to another location? shoulder(R); Does the pain radiate to another location? shoulder(L); How precisely is the pain located? 8; How fast did the pain appear? 8; Are you experiencing shortness of breath or difficulty breathing in a significant way? Yes; Do you have bouts of choking or shortness of breath that wake you up at night? Yes; Do you have high blood pressure or do you take medications to treat high blood pressure? Yes; Have you ever had a heart attack or do you have angina (chest pain)? Yes; Do you have heart failure? Yes; Do you have swelling in one or more areas of your body? Yes; Where is the swelling located? ankle(R); Where is the swelling located? calf(R); Where is the swelling located? calf(L); Where is the swelling located? tibia(L); Have you noticed any new fatigue, generalized and vague discomfort, diffuse (widespread) muscle aches or a change in your general well-being related to your consultation today? Yes; Have you traveled out of the country in the last 4 weeks? N; Are your symptoms worse when lying down and alleviated while sitting up? Yes; Do you have symptoms that are increased with physical exertion but alleviated with rest? Yes. What is the diagnosis? Select one answer among ['acute pulmonary edema', 'pulmonary embolism', 'pericarditis', 'unstable angina', 'myocarditis', 'possible nstemi / stemi', 'sle', 'stable angina', 'anaphylaxis', 'spontaneous pneumothorax', 'gerd', 'panic attack', 'boerhaave', 'atrial fibrillation', 'guillain-barré syndrome', 'chagas', 'acute dystonic reactions', 'myasthenia gravis', 'anemia', 'sarcoidosis', 'scombroid food poisoning'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the provided patient information and doctor's dialog, a possible diagnosis can be made. Here are the key points from the conversation that support this:\n\n1. **Shortness of breath**: The patient is experiencing shortness of breath in a significant way.\n2. **Fluid in lungs**: The patient has had fluid in their lungs before.\n3. **Dialysis**: The patient currently undergoes dialysis, indicating possible kidney disease or renal failure.\n4. **Pain with breathing**: The patient experiences pain when breathing, particularly in the lower chest and posterior chest wall areas.\n5. **Radiating pain**: Pain radiates to other locations, such as the biceps, shoulder, chin, and posterior chest wall on both sides.\n6. **Intense and sudden onset of pain**: The pain is intense and appears suddenly.\n7. **Swelling in ankles and calves**: The patient has swelling in one or more areas (ankles, calf, tibia) which could be indicative of fluid retention due to heart failure.\n\nConsidering the combination of these symptoms:\n\n* Acute pulmonary edema typically presents with sudden onset of shortness of breath, chest pain radiating to other locations, and swelling.\n* Pulmonary embolism can cause acute onset of chest pain, shortness of breath, and radiating pain but usually does not present with swelling.\n* Heart failure (a possible underlying condition) would explain the fluid in lungs, swelling, high blood pressure, and the overall clinical picture.\n\n**Diagnosis:** Acute pulmonary edema\n\nThe doctor should further investigate to confirm this diagnosis, considering the patient's history of kidney disease (dialysis), fluid in lungs, heart failure symptoms, and acute onset of chest pain with radiating pain.",
+      "label": "acute pulmonary edema"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: not specified. nyc fabric nd nice colours loved the productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would classify this product review as \"positive\". Although it doesn't mention a specific rating (and therefore can be labeled as \"not specified\"), the reviewer mentions several positive aspects of the product, such as the quality of the fabric and the colors being nice. The tone is also enthusiastic (\"loved the product\"), indicating a generally favorable opinion of the product.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: very good. okDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral",
+      "label": "neutral"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: awesome. nice productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would classify this as a \"positive\" review. The reviewer uses strong positive language (\"awesome\") and also mentions that the product is \"nice\", which further reinforces their positive opinion.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: mind-blowing purchase. good productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: terrific. wowDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The rating is not provided in the review. However, based on the words used (\"terrific\" and \"wow\"), I would classify this as a positive review.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 3; Sex: M; Initial evidence: Have you recently had a loss of appetite or do you get full more quickly then usually? Yes; Evidence: ; Have you had significantly increased sweating? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: heavy; Do you feel pain somewhere? back of the neck; Do you feel pain somewhere? side of the neck(R); Do you feel pain somewhere? top of the head; Do you feel pain somewhere? forehead; Do you feel pain somewhere? occiput; How intense is the pain? 6; Does the pain radiate to another location? nowhere; How precisely is the pain located? 8; How fast did the pain appear? 5; Do you smoke cigarettes? Yes; Do you have a fever (either felt or measured with a thermometer)? Yes; Have you had chills or shivers? Yes; Do you have a sore throat? Yes; Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for? Yes; What color is the rash? pink; Do your lesions peel off? N; Is the rash swollen? 5; Where is the affected region located? side of the neck(L); Where is the affected region located? forehead; How intense is the pain caused by the rash? 3; Is the lesion (or are the lesions) larger than 1cm? Y; How severe is the itching? 2; Have you recently had a loss of appetite or do you get full more quickly then usually? Yes; Do you have nasal congestion or a clear runny nose? Yes; Have you traveled out of the country in the last 4 weeks? N. What is the diagnosis? Select one answer among ['urti', 'hiv (initial infection)', 'chagas', 'influenza', 'scombroid food poisoning'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's information and dialog with the doctor, I would select:\n\n**'urti'**\n\nHere's why:\n\n* The patient is 3 years old, which suggests a viral etiology.\n* Symptoms such as loss of appetite, increased sweating, pain (rated as heavy), fever, chills, sore throat, and rash are typical for viral infections.\n* The location of the rash on the side of the neck, forehead, and top of the head is consistent with roseola infantum, a common viral infection in young children.\n* The absence of specific symptoms such as weight loss or abdominal pain does not rule out urti (roseola infantum).\n* The presence of a rash with itching suggests a viral etiology.\n\nWhile other options like influenza or food poisoning are possible, the combination of age, symptoms, and location of the rash makes 'urti' (roseola infantum) the most likely diagnosis.",
+      "label": "influenza"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: must buy!. good product and perfect for studentsDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The answer is: positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: classy product. very nice productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: fabulous!. good buyDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The review is \"positive\".",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: super!. nice good looking setDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: excellent. good productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would categorize this review as \"positive\" since it uses strong language (\"excellent\") and mentions a specific positive aspect of the product (\"good\").",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: delightful. good quality and sounds clearlyDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would categorize this review as \"positive\". The reviewer uses the word \"delightful\" to describe the product, indicating a strong positive opinion. They also mention that it has good quality and sounds clearly, which further reinforces their positive assessment.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: must buy!. very stylish and mindblowing smellfantastic purchaseDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would say that this product review is \"positive\". The reviewer uses enthusiastic language such as \"must buy!\" and mentions specific positive qualities of the product (\"very stylish\" and \"mindblowing\", \"smellfantastic\").",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: excellent. very nice soft cushionDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The correct answer is: \"positive\"",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: excellent. good stuff meets more than the expectations go for it blindly wont regret is assuredDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The rating is a 5 (out of 5), which typically indicates an extremely positive review. The reviewer uses superlatives such as \"excellent\" and phrases like \"won't regret\", which emphasize their enthusiasm and satisfaction with the product. Therefore, I would classify this review as \"positive\".",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: nan. nice product thanksDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 32; Sex: M; Initial evidence: Do you have pain somewhere, related to your reason for consulting? Yes; Evidence: ; Are you currently taking or have you recently taken anti-inflammatory drugs (NSAIDs)? Yes; Do you have a known issue with one of your heart valves? Yes; Do you take corticosteroids? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: tedious; Characterize your pain: heavy; Characterize your pain: sharp; Do you feel pain somewhere? ankle(R); Do you feel pain somewhere? thigh(L); Do you feel pain somewhere? dorsal aspect of the foot(R); Do you feel pain somewhere? dorsal aspect of the foot(L); Do you feel pain somewhere? sole(R); How intense is the pain? 4; Does the pain radiate to another location? nowhere; How precisely is the pain located? 5; How fast did the pain appear? 6; Do you have heart failure? Yes; Have you ever had deep vein thrombosis (DVT)? Yes; Do you have liver cirrhosis? Yes; Do you take a calcium channel blockers (medication)? Yes; Do you have swelling in one or more areas of your body? Yes; Where is the swelling located? ankle(R); Where is the swelling located? ankle(L); Where is the swelling located? thigh(R); Where is the swelling located? thigh(L); Where is the swelling located? sole(R); Were you diagnosed with endocrine disease or a hormone dysfunction? Yes; Have you ever been diagnosed with obstructive sleep apnea (OSA)? Yes; Do you have a known kidney problem resulting in an inability to retain proteins? Yes; Have you traveled out of the country in the last 4 weeks? North America. What is the diagnosis? Select one answer among ['localized edema', 'chagas'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's information and dialog with the doctor, the diagnosis is:\n\n**Chagas**\n\nThe diagnosis is likely Chagas disease due to several factors:\n\n1. Travel history: The patient has traveled to North America in the last 4 weeks, which increases their risk of exposure to the parasite that causes Chagas disease.\n2. History of deep vein thrombosis (DVT): This condition can be associated with Chagas disease, as the parasite can affect blood clotting and increase the risk of DVT.\n3. Presence of heart failure: Chagas disease often affects the heart, leading to heart failure in advanced stages.\n4. Swelling and pain in multiple locations: The patient's swelling and pain in various parts of their body, including their ankles, thighs, and foot, could be related to the parasite affecting blood vessels and causing inflammation.\n\nWhile localized edema (swelling) is mentioned as a possible answer, the combination of travel history, DVT, heart failure, and other symptoms suggest that Chagas disease is a more likely diagnosis.",
+      "label": "localized edema"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: great product. delivered on time thanks flipkartDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The answer is: \"positive\"",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: very good. good productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The rating is 4 and the review contains both positive words (\"very good\" and \"good\") and a general descriptor that indicates overall satisfaction. Therefore, I would classify this as a \"positive\" review.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: terrific purchase. very good combo package has good quality flux soldering iron and you also get a tester along with it really useful in household appliances toys etc very good priceDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The review is positive.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: super!. niceDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The rating is 5, which typically indicates a perfect score. The review contains only two words, both of which are positive (\"super\" and \"nice\"). There is no mention of any drawbacks or negative aspects. Therefore, the review is \"positive\".",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: nan. value for this priceDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: highly recommended. very very nice product i am very happy with itDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The review is \"positive\".",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: must buy!. awesomeDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The correct answer is: positive.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: brilliant. excellent product but also buy samsung c type to ctype cableDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer calls the product \"brilliant\" and states it's an \"excellent product\", indicating a positive opinion, but then mentions a recommendation for another brand (\"Samsung C-type to CYPE cable\"), which suggests some minor issue or compromise with this specific product.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: worth every penny. wowDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: worth every penny. niceDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would classify this product review as \"positive\". The reviewer explicitly states that the product is \"worth every penny\" and uses a positive adjective (\"nice\") to describe it. This suggests that they are very satisfied with their purchase.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: fabulous!. good buyDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The review is: positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: pretty good. good for mild winterDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer seems to have a somewhat lukewarm opinion of the product, using phrases that don't express strong enthusiasm (\"pretty good\") and specificity about its use case (\"good for mild winter\").",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 88; Sex: F; Initial evidence: Do you have pain somewhere, related to your reason for consulting? Yes; Evidence: ; Do you have swollen or painful lymph nodes? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: sensitive; Characterize your pain: burning; Do you feel pain somewhere? finger (ring finger)(L); Do you feel pain somewhere? finger (little finger)(R); Do you feel pain somewhere? finger (index)(R); Do you feel pain somewhere? finger (middle)(R); Do you feel pain somewhere? shoulder(R); How intense is the pain? 1; Does the pain radiate to another location? nowhere; How precisely is the pain located? 2; How fast did the pain appear? 3; Are you experiencing shortness of breath or difficulty breathing in a significant way? Yes; What color is the rash? NA; Do your lesions peel off? N; Is the rash swollen? 0; Where is the affected region located? nowhere; How intense is the pain caused by the rash? 0; Is the lesion (or are the lesions) larger than 1cm? N; How severe is the itching? 0; Have you had any vaginal discharge? Yes; Have you traveled out of the country in the last 4 weeks? N. What is the diagnosis? Select one answer among ['possible nstemi / stemi', 'sarcoidosis', 'pulmonary embolism'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the provided information, I would select 'pulmonary embolism' as the most likely diagnosis for this 88-year-old female patient.\n\nThe key points that led me to this conclusion are:\n\n1. Age: The patient's age is a risk factor for pulmonary embolism (PE).\n2. Sudden onset of pain: The pain appeared suddenly, which is consistent with PE.\n3. Location of pain: The pain in the finger and shoulder is unusual but not uncommon in PE.\n4. Shortness of breath: The patient experiences shortness of breath, which is a common symptom of PE.\n5. No other clear evidence for sarcoidosis or pneumonia (which would be suggested by \"possible nstemi / stemi\").\n\nWhile sarcoidosis can cause chest pain and shortness of breath, the sudden onset and unusual location of pain make pulmonary embolism a more likely diagnosis in this case.\n\nIt's worth noting that a definitive diagnosis would require further testing, such as imaging studies (e.g., CT or MRI scans) and possibly blood tests to rule out other conditions.",
+      "label": "sarcoidosis"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: fabulous!. awesome and excellent product excellent deliveryDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The rating is 5, which typically corresponds to a perfect score. Given that it's a 5-star review with words like \"fabulous\", \"awesome\", and \"excellent\" used multiple times, the review is clearly positive.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: excellent. these liners are amazingDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The rating is 5, which suggests a perfect score. The reviewer uses the word \"amazing\" to describe the product, indicating a high level of satisfaction. Therefore, I would classify this review as \"positive\".",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 42; Sex: F; Initial evidence: Have you recently had a loss of appetite or do you get full more quickly then usually? Yes; Evidence: ; Have you had significantly increased sweating? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: heavy; Do you feel pain somewhere? back of the neck; Do you feel pain somewhere? side of the neck(R); Do you feel pain somewhere? side of the neck(L); Do you feel pain somewhere? top of the head; Do you feel pain somewhere? forehead; How intense is the pain? 5; Does the pain radiate to another location? nowhere; How precisely is the pain located? 5; How fast did the pain appear? 1; Do you smoke cigarettes? Yes; Do you feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long? Yes; Do you have a fever (either felt or measured with a thermometer)? Yes; Have you had chills or shivers? Yes; Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for? Yes; What color is the rash? pink; Do your lesions peel off? N; Is the rash swollen? 3; Where is the affected region located? back of the neck; Where is the affected region located? side of the neck(R); How intense is the pain caused by the rash? 6; Is the lesion (or are the lesions) larger than 1cm? Y; How severe is the itching? 1; Do you have diffuse (widespread) muscle pain? Yes; Have you recently had a loss of appetite or do you get full more quickly then usually? Yes; Do you have a cough? Yes; Have you traveled out of the country in the last 4 weeks? N; Are you immunosuppressed? Yes. What is the diagnosis? Select one answer among ['influenza', 'hiv (initial infection)', 'pneumonia', 'bronchitis', 'chagas', 'tuberculosis', 'anemia', 'urti', 'scombroid food poisoning', 'chronic rhinosinusitis'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's information and dialog with the doctor, the diagnosis is likely:\n\n**HIV (Initial Infection)**\n\nReasoning:\n\n1. The patient has symptoms such as loss of appetite, increased sweating, pain in the back of the neck, fever, chills, fatigue, and a rash on the skin.\n2. The presence of a rash with a high intensity of itching (6) is consistent with a viral infection.\n3. The fact that the patient feels unwell for 1 day only suggests an acute onset, which is common in viral infections like HIV.\n4. The patient's history of smoking cigarettes and immunosuppression increases their risk for various infections, including HIV.\n5. Although the patient has some non-specific symptoms such as cough and muscle pain, these are not as prominent as other symptoms.\n6. The combination of fatigue, loss of appetite, fever, chills, and a rash makes it more likely to be an acute viral infection rather than another condition.\n\nWhile some other conditions could be considered, the presence of a rash with itching and immunosuppression make HIV (Initial Infection) a more likely diagnosis.",
+      "label": "influenza"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 4; Sex: M; Initial evidence: Do you have nasal congestion or a clear runny nose? Yes; Evidence: ; Are you currently being treated or have you recently been treated with an oral antibiotic for an ear infection? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: sensitive; Do you feel pain somewhere? ear(R); Do you feel pain somewhere? ear(L); How intense is the pain? 6; Does the pain radiate to another location? nowhere; How precisely is the pain located? 10; How fast did the pain appear? 3; Are you more irritable or has your mood been very unstable recently? Yes; Do you have nasal congestion or a clear runny nose? Yes; Do you have a cough? Yes; Have you traveled out of the country in the last 4 weeks? N. What is the diagnosis? Select one answer among ['acute otitis media', 'bronchitis', 'urti'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's information and dialog with the doctor, the likely diagnosis is:\n\n* Acute otitis media (AOM)\n\nReasons for this diagnosis include:\n\n1. The patient has recently been treated with an oral antibiotic for an ear infection.\n2. The patient experiences pain in the ear, specifically a sensitive 6/10 pain that radiates precisely to one location (ear(R)) and is associated with nasal congestion and a clear runny nose.\n3. The pain appeared rapidly, within 3 days.\n\nAcute otitis media is a common childhood infection characterized by inflammation of the middle ear, often accompanied by fever, irritability, and ear pain. The presence of recent antibiotic treatment and specific symptoms such as ear pain, nasal congestion, and clear runny nose are consistent with AOM.\n\nBronchitis and urti (urticaria) do not fit well with the patient's symptoms and history:\n\n* Bronchitis typically presents with coughing and may be accompanied by fever, but does not usually cause localized ear pain.\n* Urti is a skin condition characterized by hives and itching, which is not consistent with the patient's symptoms.\n\nTherefore, the most likely diagnosis is acute otitis media.",
+      "label": "acute otitis media"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 45; Sex: F; Initial evidence: Are you experiencing shortness of breath or difficulty breathing in a significant way? Yes; Evidence: ; Have you had diarrhea or an increase in stool frequency? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: tedious; Characterize your pain: sensitive; Characterize your pain: a cramp; Characterize your pain: a pulse; Characterize your pain: sharp; Do you feel pain somewhere? back of head; Do you feel pain somewhere? back of the neck; Do you feel pain somewhere? cervical spine; Do you feel pain somewhere? forehead; Do you feel pain somewhere? occiput; How intense is the pain? 5; Does the pain radiate to another location? nowhere; How precisely is the pain located? 9; How fast did the pain appear? 5; Are you experiencing shortness of breath or difficulty breathing in a significant way? Yes; Where is the swelling located? nowhere; Have you noticed any new fatigue, generalized and vague discomfort, diffuse (widespread) muscle aches or a change in your general well-being related to your consultation today? Yes; Have you traveled out of the country in the last 4 weeks? N. What is the diagnosis? Select one answer among ['anemia', 'myocarditis', 'cluster headache', 'chagas'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the provided information, the most likely diagnosis for this patient is:\n\nCluster Headache.\n\nThe key reasons for selecting cluster headache as the diagnosis are:\n\n1. The location and description of the pain: The patient reports pain in specific locations such as the back of the head (occiput), back of the neck, cervical spine, forehead, and occiput, which is consistent with cluster headaches that often affect the area around the eye.\n2. Intensity and characteristics of the pain: The pain is described as sharp, crampy, pulsating, and tedious, which are all characteristic symptoms of cluster headaches.\n3. Duration of the pain: The pain appears suddenly (5) and lasts for a short duration, consistent with cluster headache attacks.\n4. Lack of radiating pain: Cluster headaches typically do not radiate to another location, unlike some other types of headaches.\n5. Absence of systemic symptoms: While the patient reports fatigue and generalized discomfort, these symptoms are not as prominent or specific as those associated with cluster headaches.\n\nWhile anemia (option 1) could potentially cause fatigue and shortness of breath, there is no clear evidence in the provided information to support this diagnosis. Myocarditis (option 2) might be considered if there were signs of heart disease or cardiac dysfunction, which are not mentioned here. Chagas (option 4) typically presents with more systemic symptoms such as weight loss and gastrointestinal issues, which are also not explicitly described in the patient's history.\n\nIt is essential to note that this diagnosis can only be confirmed by further evaluation, including a thorough medical history, physical examination, and diagnostic tests like imaging studies or blood work.",
+      "label": "chagas"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 25; Sex: M; Initial evidence: Do you have diffuse (widespread) muscle pain? Yes; Evidence: ; Do you have swollen or painful lymph nodes? Yes; Have you ever had a sexually transmitted infection? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: tedious; Characterize your pain: sensitive; Do you feel pain somewhere? top of the head; Do you feel pain somewhere? occiput; Do you feel pain somewhere? temple(R); Do you feel pain somewhere? temple(L); How intense is the pain? 7; Does the pain radiate to another location? nowhere; How precisely is the pain located? 5; How fast did the pain appear? 4; Are you currently using intravenous drugs? Yes; Do you feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long? Yes; Do you have a fever (either felt or measured with a thermometer)? Yes; Do you have a sore throat? Yes; Have you had unprotected sex with more than one partner in the last 6 months? Yes; Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for? Yes; What color is the rash? pale; Do your lesions peel off? N; Is the rash swollen? 2; Where is the affected region located? lower gum; Where is the affected region located? upper gum; Where is the affected region located? labia majora(R); Where is the affected region located? labia majora(L); Where is the affected region located? internal cheek(R); How intense is the pain caused by the rash? 4; Is the lesion (or are the lesions) larger than 1cm? Y; How severe is the itching? 0; Do you have diffuse (widespread) muscle pain? Yes; Are you feeling nauseous or do you feel like vomiting? Yes; Have you had an involuntary weight loss over the last 3 months? Yes; Have you had sexual intercourse with an HIV-positive partner in the past 12 months? Yes; Have you traveled out of the country in the last 4 weeks? N. What is the diagnosis? Select one answer among ['hiv (initial infection)', 'chagas', 'influenza', 'urti', 'anemia', 'scombroid food poisoning', 'sarcoidosis'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's symptoms and medical history, I would select \"HIV (Initial Infection)\" as the diagnosis.\n\nHere's why:\n\n* The patient is experiencing diffuse muscle pain, swollen or painful lymph nodes, and fever, which are common symptoms of HIV infection.\n* The presence of tender and sensitive pains in specific locations (top of the head, occiput, temples) could be indicative of a viral infection such as HIV.\n* The history of unprotected sex with multiple partners within the past 6 months increases the likelihood of HIV exposure.\n* The patient's symptoms of fatigue, pain, and fever, along with the presence of lesions or rashes (pale, non-itchy, and not swollen), are consistent with acute HIV infection.\n* Although there is no specific mention of symptoms such as joint pain, oral thrush, or skin rash, these can also occur in some cases of initial HIV infection.\n\nIt's worth noting that the other options do not fit as well with the patient's symptoms:\n\n* Chagas disease typically presents with cardiac or gastrointestinal symptoms, which are not mentioned.\n* Influenza would likely include more respiratory symptoms, such as cough or shortness of breath.\n* UTI (Urinary Tract Infection) and URTI (Upper Respiratory Tract Infection) would present differently, with more specific urinary or respiratory symptoms.\n* Anemia is possible but not strongly supported by the information provided.\n* Scombroid food poisoning would be a rare cause of fever and lymphadenopathy in this context.\n* Sarcoidosis typically presents with lung symptoms and specific laboratory findings (e.g., elevated calcium levels).\n\nKeep in mind that a definitive diagnosis requires further testing, such as HIV antibody or antigen tests, to confirm the presence of the virus.",
+      "label": "hiv (initial infection)"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: great product. the product is too goodjust loved itDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The rating is a 5 out of 5 stars, which suggests an extremely positive review. The reviewer uses superlatives such as \"too good\" and emphasizes their love for the product, indicating that they are extremely satisfied with its quality and performance. Therefore, I would classify this review as \"positive\".",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: highly recommended. very nice chargerDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Positive.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: must buy!. its 2 in 1 purpose awesome product worth for the economy rateDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The answer is: positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: worth every penny. nicrDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would classify this product review as \"positive\" since the reviewer uses the phrase \"worth every penny,\" indicating that they are extremely satisfied with their purchase.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 63; Sex: F; Initial evidence: Are the symptoms or pain increased with coughing, with an effort like lifting a weight or from forcing a bowel movement? Yes; Evidence: ; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: heavy; Do you feel pain somewhere? iliac fossa(R); Do you feel pain somewhere? hip(R); How intense is the pain? 4; Does the pain radiate to another location? nowhere; How precisely is the pain located? 2; How fast did the pain appear? 2; What color is the rash? NA; Do your lesions peel off? N; Is the rash swollen? 0; Where is the affected region located? nowhere; How intense is the pain caused by the rash? 0; Is the lesion (or are the lesions) larger than 1cm? N; How severe is the itching? 0; Have you been able to pass stools or gas since your symptoms increased? Yes; Were you born prematurely or did you suffer any complication at birth? Yes; Do you have intense coughing fits? Yes; Have you traveled out of the country in the last 4 weeks? N; Are the symptoms or pain increased with coughing, with an effort like lifting a weight or from forcing a bowel movement? Yes. What is the diagnosis? Select one answer among ['bronchitis', 'inguinal hernia'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's information and dialog with the doctor, the most likely diagnosis is:\n\n**Inguinal Hernia**\n\nThe reasons for this conclusion are:\n\n1. The location of the pain: The patient mentions iliac fossa (lower abdomen) and hip pain, which are common locations for inguinal hernias.\n2. The intensity and characteristics of the pain: The heavy pain with a rating of 4 is consistent with an inguinal hernia, particularly if it's causing discomfort or pressure on the surrounding tissues.\n3. The absence of respiratory symptoms: Although the patient mentions coughing fits, there are no other respiratory symptoms mentioned that would suggest bronchitis.\n4. The presence of bowel movements: The patient reports being able to pass stools and gas since their symptoms increased, which is consistent with an inguinal hernia that may cause discomfort or pain during bowel movements due to pressure on the intestine.\n\nThe doctor's dialogue does not provide enough evidence to support a diagnosis of bronchitis.",
+      "label": "inguinal hernia"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: simply awesome. goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer uses two very general and positive adjectives (\"simply awesome\" and \"good\"), but they don't provide much specific detail about the product's quality, features, or any particular aspect that stood out to them.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:3. Review: nan. goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: great product. fine superDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:1. Review: absolute rubbish!. very bad experience passwords went wrong cant sign in epic game so many errors in this lappy worst dont buyDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative.",
+      "label": "negative"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: great product. superDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would classify this review as \"positive\". The reviewer uses strong language such as \"great\" and \"super\" to express their enthusiasm for the product. There is no criticism or negative comment in the review, indicating a very favorable opinion of the product.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: best in the market!. nice productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The review is \"positive\".",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: perfect product!. super dealDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would categorize this review as \"positive\". The reviewer uses enthusiastic language (\"perfect product!\") and mentions that it's a \"super deal\", which indicates a high level of satisfaction with the product.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 26; Sex: M; Initial evidence: Have you been coughing up blood? Yes; Evidence: ; Have you been in contact with a person with similar symptoms in the past 2 weeks? Yes; Have you been coughing up blood? Yes; Do you live with 4 or more people? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: sensitive; Characterize your pain: burning; Do you feel pain somewhere? tonsil(R); Do you feel pain somewhere? tonsil(L); Do you feel pain somewhere? thyroid cartilage; Do you feel pain somewhere? palace; Do you feel pain somewhere? under the jaw; How intense is the pain? 3; Does the pain radiate to another location? nowhere; How precisely is the pain located? 5; How fast did the pain appear? 5; Do you have a fever (either felt or measured with a thermometer)? Yes; Do you have nasal congestion or a clear runny nose? Yes; Do you have a cough? Yes; Have you traveled out of the country in the last 4 weeks? N; Are you immunosuppressed? Yes. What is the diagnosis? Select one answer among ['viral pharyngitis', 'urti', 'tuberculosis', 'bronchitis', 'acute laryngitis', 'possible nstemi / stemi', 'influenza', 'epiglottitis', 'unstable angina', 'stable angina'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's information and dialog with the doctor, the diagnosis is likely:\n\n**Influenza**\n\nReasons for this diagnosis include:\n\n1. Age: The patient is 26 years old, which is a common age group for influenza.\n2. Symptoms: The patient has been coughing up blood, which can be a symptom of influenza, especially in children and young adults.\n3. Fever: The patient has a fever, which is a classic symptom of the flu.\n4. Nasal congestion and runny nose: These are also common symptoms of influenza.\n5. Cough: The patient has a cough, which is another common symptom of the flu.\n6. Immunosuppressed: The patient's immunosuppressed status increases their risk for complications from influenza.\n\nThe other options do not fit as well with the patient's symptoms and medical history:\n\n* Viral pharyngitis typically presents with sore throat, fever, and swollen lymph nodes, but does not usually cause coughing up blood.\n* Urti (urinary tract infection) would not explain the respiratory symptoms or coughing up blood.\n* Tuberculosis is unlikely in a young adult without risk factors such as travel to an endemic country or exposure to someone with TB.\n* Bronchitis and acute laryngitis can cause cough and fever, but do not usually involve coughing up blood.\n* Possible NSTEMI/Stemi: This would be more likely if the patient had a history of heart disease or risk factors for cardiovascular disease.\n* Epiglottitis is a rare condition that typically presents with severe throat pain and difficulty swallowing, which is not consistent with this patient's symptoms.\n* Unstable angina and stable angina are also unlikely in this patient without a history of heart disease.",
+      "label": "viral pharyngitis"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 70; Sex: F; Initial evidence: Do you have a cough that produces colored or more abundant sputum than usual? Yes; Evidence: ; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: burning; Do you feel pain somewhere? lower chest; Do you feel pain somewhere? side of the chest(R); Do you feel pain somewhere? posterior chest wall(R); Do you feel pain somewhere? posterior chest wall(L); How intense is the pain? 3; Does the pain radiate to another location? nowhere; How precisely is the pain located? 5; How fast did the pain appear? 5; Are you experiencing shortness of breath or difficulty breathing in a significant way? Yes; Do you have a cough that produces colored or more abundant sputum than usual? Yes; Do you smoke cigarettes? Yes; Do you have a fever (either felt or measured with a thermometer)? Yes; Do you have a chronic obstructive pulmonary disease (COPD)? Yes; Do you have a cough? Yes; Have you traveled out of the country in the last 4 weeks? N; Are your vaccinations up to date? Yes; Are your symptoms more prominent at night? Yes. What is the diagnosis? Select one answer among ['pneumonia', 'bronchitis', 'bronchiectasis', 'panic attack', 'acute copd exacerbation / infection', 'possible nstemi / stemi', 'gerd', 'unstable angina', 'tuberculosis', 'stable angina', 'bronchospasm / acute asthma exacerbation', 'atrial fibrillation', 'boerhaave', 'pericarditis', 'guillain-barré syndrome', 'acute dystonic reactions', 'myocarditis', 'pulmonary neoplasm', 'psvt'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's information and dialog with the doctor, the diagnosis is:\n\n**Acute COPD Exacerbation / Infection**\n\nThe symptoms presented by the patient are consistent with an acute exacerbation of chronic obstructive pulmonary disease (COPD), which includes:\n\n* Cough producing colored or more abundant sputum than usual\n* Burning pain in the lower chest\n* Shortness of breath and difficulty breathing\n* Fever\n* History of smoking cigarettes, which increases the risk of COPD\n* History of COPD, which confirms the diagnosis\n\nThe other options can be ruled out based on the information provided:\n\n* Bronchitis is unlikely since there is no mention of a typical viral or bacterial infection.\n* Bronchiectasis is not indicated by the symptoms.\n* Panic attack and acute asthma exacerbation do not match the chronic nature of the patient's condition.\n* GERD, unstable angina, stable angina, bronchospasm, atrial fibrillation, Boerhaave, pericarditis, Guillain-Barré syndrome, acute dystonic reactions, myocarditis, pulmonary neoplasm, and psVT are not supported by the symptoms or history.\n\nThe doctor's diagnosis is likely based on a combination of the patient's history, physical examination, and clinical presentation.",
+      "label": "bronchitis"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: not specified. expectedDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer didn't provide a rating, which suggests that they may have had mixed feelings about the product, but without further context, it's difficult to determine their overall opinion.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: worth every penny. good productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would say that this review is \"positive\". Although it doesn't contain overly enthusiastic language, the reviewer explicitly states that the product was \"worth every penny\" and uses a positive adjective (\"good\") to describe it, indicating overall satisfaction with the purchase.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:1. Review: not recommended at all. wastage of moneyDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative.",
+      "label": "negative"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: nice product. oct 2018good kettle worth the money boils water fast but its a bit noisy when its boiling the body handle gets heated up a bit but its not that you cant touch ithave been using it everyday from the day it reachedam happy with it also looks goodfeb 2019its been 4 months using the kettle everything is fine but the body of the kettles getting rusted on the edges else it works greatDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer mentions both positive aspects (good price, boils water fast, looks good) and negative aspects (noise while boiling, body handle gets heated up, rusting edges). They also seem to be somewhat neutral about their overall experience, using phrases like \"have been using it every day\" and \"everything is fine\".",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:1. Review: very poor. poor performanceDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative",
+      "label": "negative"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:2. Review: nan. stitching and cloth is not good according to priceDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative",
+      "label": "negative"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:3. Review: just okay. very low rangeDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 62; Sex: M; Initial evidence: Do you have nasal congestion or a clear runny nose? Yes; Evidence: ; Have you been in contact with a person with similar symptoms in the past 2 weeks? Yes; Do you live with 4 or more people? Yes; Do you attend or work in a daycare? Yes; Have you had significantly increased sweating? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: sensitive; Characterize your pain: heavy; Do you feel pain somewhere? top of the head; Do you feel pain somewhere? forehead; Do you feel pain somewhere? cheek(L); Do you feel pain somewhere? occiput; Do you feel pain somewhere? temple(R); How intense is the pain? 4; Does the pain radiate to another location? nowhere; How precisely is the pain located? 6; How fast did the pain appear? 1; Do you smoke cigarettes? Yes; Do you have a fever (either felt or measured with a thermometer)? Yes; Do you have a sore throat? Yes; Do you have diffuse (widespread) muscle pain? Yes; Do you have nasal congestion or a clear runny nose? Yes; Have you traveled out of the country in the last 4 weeks? N; Are you exposed to secondhand cigarette smoke on a daily basis? Yes. What is the diagnosis? Select one answer among ['urti', 'influenza', 'hiv (initial infection)', 'chagas'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the provided patient information and dialog with the doctor, the likely diagnosis is:\n\n['urti']\n\nThe symptoms presented by the patient include:\n\n- Nasal congestion or a clear runny nose\n- Increased sweating\n- Sensitive and heavy pain in the top of the head, forehead, cheek (L), occiput, and temple (R)\n- Pain radiating to another location (none)\n- Intense pain located precisely (6/10)\n- Pain appearing quickly (1 second)\n- Exposure to secondhand cigarette smoke\n- Fever\n- Sore throat\n- Diffuse muscle pain\n\nThese symptoms are consistent with a diagnosis of Urticaria, also known as hives. Urticaria is characterized by itchy, raised welts or hives that can appear anywhere on the body. It can be caused by an allergic reaction, infection, or other factors.\n\nThe other options do not match the patient's symptoms as closely:\n\n- Influenza typically presents with a fever, cough, and body aches, but does not usually cause localized pain in specific areas.\n- HIV (initial infection) is unlikely to present with such acute symptoms, especially without any history of risk factors or exposure.\n- Chagas disease is a parasitic infection that typically presents with cardiac and gastrointestinal symptoms, rather than the symptoms described.",
+      "label": "urti"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:1. Review: horrible. its been just 6 months since i purchased the food processor and the motor already started making noisejars have started leaking from bottomDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative.",
+      "label": "neutral"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 0; Sex: F; Initial evidence: Have you had diarrhea or an increase in stool frequency? Yes; Evidence: ; Do you have swollen or painful lymph nodes? Yes; Have you ever had a sexually transmitted infection? Yes; Have you had diarrhea or an increase in stool frequency? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: tedious; Characterize your pain: a pulse; Characterize your pain: exhausting; Do you feel pain somewhere? back of the neck; Do you feel pain somewhere? cervical spine; Do you feel pain somewhere? occiput; Do you feel pain somewhere? temple(R); How intense is the pain? 8; Does the pain radiate to another location? nowhere; How precisely is the pain located? 6; How fast did the pain appear? 6; Are you currently using intravenous drugs? Yes; Do you feel so tired that you are unable to do your usual activities or are you stuck in your bed all day long? Yes; Do you have a fever (either felt or measured with a thermometer)? Yes; Have you had unprotected sex with more than one partner in the last 6 months? Yes; Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for? Yes; What color is the rash? pale; Do your lesions peel off? N; Is the rash swollen? 3; Where is the affected region located? lower gum; Where is the affected region located? upper gum; Where is the affected region located? labia majora(R); Where is the affected region located? labia majora(L); Where is the affected region located? internal cheek(R); How intense is the pain caused by the rash? 2; Is the lesion (or are the lesions) larger than 1cm? Y; How severe is the itching? 0; Do you have diffuse (widespread) muscle pain? Yes; Have you had an involuntary weight loss over the last 3 months? Yes; Have you had sexual intercourse with an HIV-positive partner in the past 12 months? Yes; Have you traveled out of the country in the last 4 weeks? N. What is the diagnosis? Select one answer among ['hiv (initial infection)', 'chagas', 'acute otitis media', 'influenza', 'anemia', 'scombroid food poisoning', 'sarcoidosis'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's symptoms and evidence, I would select the following diagnosis:\n\n'HIV (Initial Infection)'\n\nThe reasons for this selection are as follows:\n\n1. The patient has had diarrhea or an increase in stool frequency, which is a common symptom of HIV.\n2. The patient has swollen or painful lymph nodes, which is another common symptom of HIV.\n3. The patient has experienced pain and fatigue, which can be associated with HIV.\n4. The patient has a fever, which can be a symptom of HIV infection.\n5. The patient has had unprotected sex with more than one partner in the last 6 months, which increases their risk of contracting HIV.\n6. The patient has reported lesions or rashes on different parts of their body, including the labia majora and internal cheek, which can be associated with HIV-related sexually transmitted infections (STIs).\n7. The patient has experienced diffuse muscle pain, which is a common symptom of many viral infections, including HIV.\n8. The patient has had an involuntary weight loss over the last 3 months, which can be associated with HIV.\n\nThe other options do not fit as well with the patient's symptoms and evidence:\n\n* Chagas disease typically presents with fever, chills, and swelling of the lymph nodes, but it is usually accompanied by a specific type of rash on the trunk.\n* Acute otitis media would likely present with ear pain and hearing loss, which are not mentioned in the patient's symptoms.\n* Influenza would typically present with symptoms such as fever, cough, and body aches, but the patient's symptoms are more focused on lymphadenopathy and rashes.\n* Anemia is not supported by any of the patient's symptoms or evidence.\n* Scombroid food poisoning would typically present with gastrointestinal symptoms such as vomiting and diarrhea, but the patient's symptoms do not fit this pattern.\n\nOverall, while the diagnosis of HIV (Initial Infection) is based on some uncertainty, it appears to be the most likely explanation for the patient's symptoms and evidence.",
+      "label": "hiv (initial infection)"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:1. Review: not recommended at all. quality ledhuDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative.",
+      "label": "negative"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:3. Review: good. all seet not goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer says \"good\" and \"all seet not good\", but doesn't provide any specific details about what they liked or disliked about the product.",
+      "label": "negative"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 28; Sex: M; Initial evidence: Have you been coughing up blood? Yes; Evidence: ; Have you been in contact with a person with similar symptoms in the past 2 weeks? Yes; Have you been coughing up blood? Yes; Do you live with 4 or more people? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: sensitive; Characterize your pain: burning; Do you feel pain somewhere? tonsil(R); Do you feel pain somewhere? tonsil(L); Do you feel pain somewhere? thyroid cartilage; Do you feel pain somewhere? palace; Do you feel pain somewhere? pharynx; How intense is the pain? 4; Does the pain radiate to another location? nowhere; How precisely is the pain located? 5; How fast did the pain appear? 4; Do you smoke cigarettes? Yes; Do you have a fever (either felt or measured with a thermometer)? Yes; Do you have nasal congestion or a clear runny nose? Yes; Have you traveled out of the country in the last 4 weeks? N. What is the diagnosis? Select one answer among ['viral pharyngitis', 'possible nstemi / stemi', 'unstable angina', 'epiglottitis', 'urti', 'acute laryngitis', 'influenza', 'stable angina'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the provided patient information and dialog with the doctor, I would select the diagnosis: \"epiglottitis\".\n\nHere's a breakdown of the reasons why:\n\n1. The patient is coughing up blood (hemoptysis), which is a concerning symptom.\n2. The patient has been in contact with someone else who had similar symptoms in the past 2 weeks, suggesting possible exposure to an infectious agent.\n3. The presence of pain in multiple areas, including the tonsils, thyroid cartilage, and pharynx, suggests an infection or inflammation affecting these areas.\n4. The intensity and location of the pain (4/5) indicate a significant level of discomfort, which is consistent with epiglottitis.\n5. The fast onset of pain (4) also supports this diagnosis.\n6. The patient's recent exposure to someone else who had similar symptoms may be relevant.\n\nEpiglottitis is an infection or inflammation of the epiglottis, a flap-like structure located at the entrance of the larynx. It can cause severe symptoms, including difficulty swallowing, coughing up blood, and severe pain in the throat. Given the patient's age, sex, and symptom profile, epiglottitis is a plausible diagnosis.\n\nThe other options are less likely based on the provided information:\n\n* Viral pharyngitis typically presents with more mild symptoms, such as sore throat and fever.\n* Possible NSTEMI/Stemi and unstable angina suggest cardiovascular issues, which are not indicated in this case.\n* Unstable angina is unlikely to cause coughing up blood or significant pain in the throat.\n* URTI (upper respiratory tract infection) may cause some similar symptoms but would typically be milder.\n* Acute laryngitis could cause hoarseness and cough, but coughing up blood is not a common symptom.\n* Influenza can cause fever and respiratory symptoms, but the combination of hemoptysis, severe pain, and recent exposure to someone else with similar symptoms makes epiglottitis more likely.",
+      "label": "viral pharyngitis"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: worth the money. nice television n i love itDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 74; Sex: F; Initial evidence: Have you noticed a wheezing sound when you exhale? Yes; Evidence: ; Do you have any family members who have asthma? Yes; Have you had a cold in the last 2 weeks? Yes; Have you been diagnosed with chronic sinusitis? Yes; Do you have asthma or have you ever had to use a bronchodilator in the past? Yes; Do you have a cough? Yes; Have you traveled out of the country in the last 4 weeks? N; Do you live in in a big city? Yes; Have you noticed a wheezing sound when you exhale? Yes; Are you exposed to secondhand cigarette smoke on a daily basis? Yes; Are you more likely to develop common allergies than the general population? Yes. What is the diagnosis? Select one answer among ['bronchitis', 'bronchospasm / acute asthma exacerbation', 'anaphylaxis', 'scombroid food poisoning'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the patient's information and dialog with the doctor, I would select:\n\n**'Bronchospasm / acute asthma exacerbation'**\n\nReasons for this selection are:\n\n1. The patient has a history of wheezing sounds when exhaling.\n2. They have a family member with asthma.\n3. They have been diagnosed with chronic sinusitis, which is a common trigger for asthma attacks.\n4. They have experienced symptoms such as coughing and wheezing in the last 2 weeks.\n\nWhile other conditions like bronchitis or anaphylaxis are possible, the presence of wheezing sounds, family history, and recent respiratory symptoms make bronchospasm/acute asthma exacerbation a more likely diagnosis. Scombroid food poisoning is unlikely to be related to these symptoms.\n\nIt's essential to note that a proper diagnosis can only be made after further evaluation, including physical examination, medical history, laboratory tests (e.g., blood tests, spirometry), and potentially imaging studies.",
+      "label": "bronchospasm / acute asthma exacerbation"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: just wow!. this product is very good and i like itDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would classify this product review as \"positive\". The reviewer uses enthusiastic language (\"just wow!\") to express their satisfaction with the product, and explicitly states that they \"like\" it. There is no negative commentary or criticism in the review.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: nice product. my daughter liked itDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The answer is: neutral.\n\nAlthough the reviewer mentions that the product is \"nice\" and their daughter liked it, they don't provide any detailed information about the product's quality, performance, or features beyond just its aesthetic appeal. The review seems to be a brief and general statement rather than a thorough evaluation of the product.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:4. Review: really nice. nice fast charging time than initial company chargerDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The rating is 4, but the actual text of the review doesn't contain the word \"rating\" and only contains two instances of the adjective \"nice\". The reviewer uses phrases like \"really nice\", which suggests a positive sentiment towards the product. Since there's no negative feedback or criticism in the review, I would classify it as \"positive\".",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:3. Review: just okay. very niceDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer is being somewhat ambiguous by saying \"just okay\" which suggests a lack of enthusiasm, but then contrasts it with \"very nice\", implying that the product has some redeeming qualities.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: highly recommended. value for money this productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The rating is a 5 out of 5, but the actual text of the review doesn't mention any specific pros or cons of the product. However, the words \"highly recommended\" and \"value for money\" suggest that the reviewer has a very positive opinion of the product.\n\nGiven this information, I would say that the overall tone of the review is \"positive\".",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:3. Review: just okay. goodDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer uses the phrase \"just okay\" to set a baseline tone, but then says \"good\" which suggests that it's not bad, but also not exceptional.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 108; Sex: F; Initial evidence: Have you been coughing up blood? Yes; Evidence: ; Have you been coughing up blood? Yes; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: sensitive; Characterize your pain: a knife stroke; Characterize your pain: exhausting; Do you feel pain somewhere? posterior chest wall(L); How intense is the pain? 2; Does the pain radiate to another location? nowhere; How precisely is the pain located? 5; How fast did the pain appear? 4; Are you experiencing shortness of breath or difficulty breathing in a significant way? Yes; Do you smoke cigarettes? Yes; Are you a former smoker? Yes; Do you have a cough? Yes; Have you traveled out of the country in the last 4 weeks? N; Are you exposed to secondhand cigarette smoke on a daily basis? Yes; Do you have family members who have had lung cancer? Yes. What is the diagnosis? Select one answer among ['pulmonary neoplasm', 'bronchitis', 'possible nstemi / stemi', 'tuberculosis', 'unstable angina', 'acute pulmonary edema', 'bronchiectasis', 'guillain-barré syndrome', 'stable angina', 'bronchospasm / acute asthma exacerbation', 'atrial fibrillation', 'pulmonary embolism', 'acute dystonic reactions', 'myocarditis', 'pneumonia'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the provided information, the most likely diagnosis is:\n\n**Pulmonary Neoplasm**\n\nReasons for this selection:\n\n1. Age: The patient's age of 108 years increases the likelihood of a pulmonary neoplasm, as lung cancer risk increases with age.\n2. Coughing up blood (hemoptysis): This symptom is a common presentation of lung cancer.\n3. Pain: The description of the pain as \"a knife stroke\" and \"exhausting\" suggests a severe and debilitating condition, which can be consistent with advanced lung cancer.\n4. Shortness of breath and difficulty breathing: These symptoms are also common in patients with lung cancer due to various factors such as tumor obstruction or metastasis to other organs.\n5. Family history: The patient's family members having had lung cancer increases the likelihood of a genetic predisposition, which is a known risk factor for pulmonary neoplasm.\n\nWhile other options like pneumonia, bronchitis, and chronic obstructive pulmonary disease (COPD) are possible, the combination of age, symptoms, and family history makes pulmonary neoplasm a more likely diagnosis.",
+      "label": "pulmonary neoplasm"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: excellent. really worthDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would classify this review as \"positive\". The reviewer uses strong language such as \"excellent\" to describe their experience with the product, indicating a high level of satisfaction.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: worth every penny. mind blowing and eco friendlyDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The answer is: positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 32; Sex: F; Initial evidence: Do you have pain somewhere, related to your reason for consulting? Yes; Evidence: ; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: sensitive; Do you feel pain somewhere? flank(L); Do you feel pain somewhere? hypochondrium(L); Do you feel pain somewhere? belly; Do you feel pain somewhere? epigastric; How intense is the pain? 2; Does the pain radiate to another location? nowhere; How precisely is the pain located? 3; How fast did the pain appear? 2; Do you have diabetes? Yes; Are you significantly overweight compared to people of the same height as you? Yes; Do you have any lesions, redness or problems on your skin that you believe are related to the condition you are consulting for? Yes; What color is the rash? yellow; Do your lesions peel off? N; Is the rash swollen? 2; Where is the affected region located? epigastric; How intense is the pain caused by the rash? 1; Is the lesion (or are the lesions) larger than 1cm? Y; How severe is the itching? 4; Have you had an involuntary weight loss over the last 3 months? Yes; Do you have pale stools and dark urine? Yes; Have you traveled out of the country in the last 4 weeks? N; Are there members of your family who have been diagnosed with pancreatic cancer? Yes. What is the diagnosis? Select one answer among ['pancreatic neoplasm', 'possible nstemi / stemi', 'scombroid food poisoning', 'unstable angina', 'stable angina', 'pericarditis', 'anaphylaxis', 'gerd'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the provided information, the diagnosis is likely 'pancreatic neoplasm'.\n\nHere's a summary of the key points that support this diagnosis:\n\n1. The patient has a sensitive pain in the flank, hypochondrium, and epigastric regions, which are common locations for pancreatic issues.\n2. The pain is intense (3/10) and radiates nowhere, which suggests a localized issue rather than a widespread problem.\n3. The patient has diabetes, obesity, and a history of pale stools and dark urine, all of which can be related to pancreatic dysfunction or cancer.\n4. The presence of yellow lesions on the skin that are not itchy (2/10) but do peel off (N) is consistent with a rash associated with pancreatic cancer.\n5. The patient has had involuntary weight loss over the last 3 months, which is a common symptom of pancreatic cancer.\n6. Family history of pancreatic cancer is also present, increasing the likelihood of this diagnosis.\n\nWhile other options cannot be ruled out entirely without further testing, the combination of these symptoms and risk factors strongly suggests pancreatic neoplasm as the most likely diagnosis.",
+      "label": "pancreatic neoplasm"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: nan. nice productDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: wonderful. good router high ping availableDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Neutral. The reviewer mentions a few positive aspects of the product (it's a \"wonderful\" router and has a \"good\" router), but doesn't provide any negative comments or feedback, which suggests that their overall experience is neutral.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: excellent. super quality productmust buy itDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The rating is 5 (which implies a perfect score) and the review contains words like \"excellent\" and \"super quality\", which indicate high praise for the product. Additionally, the reviewer explicitly states that they highly recommend buying it.\n\nSo, I would categorize this review as: positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Given is a patient's information and dialog with the doctor. Age: 28; Sex: M; Initial evidence: Do you have pain somewhere, related to your reason for consulting? Yes; Evidence: ; Do you have pain somewhere, related to your reason for consulting? Yes; Characterize your pain: heavy; Do you feel pain somewhere? lower chest; Do you feel pain somewhere? side of the chest(L); Do you feel pain somewhere? upper chest; Do you feel pain somewhere? breast(R); Do you feel pain somewhere? epigastric; How intense is the pain? 4; Does the pain radiate to another location? biceps(R); Does the pain radiate to another location? thyroid cartilage; Does the pain radiate to another location? thoracic spine; Does the pain radiate to another location? under the jaw; Does the pain radiate to another location? shoulder(R); How precisely is the pain located? 3; How fast did the pain appear? 6; Are you experiencing shortness of breath or difficulty breathing in a significant way? Yes; Do you have high cholesterol or do you take medications to treat high cholesterol? Yes; Do you have high blood pressure or do you take medications to treat high blood pressure? Yes; Have you ever had a heart attack or do you have angina (chest pain)? Yes; Have you traveled out of the country in the last 4 weeks? N; Do you have close family members who had a cardiovascular disease problem before the age of 50? Yes. What is the diagnosis? Select one answer among ['possible nstemi / stemi', 'panic attack', 'gerd', 'guillain-barré syndrome', 'atrial fibrillation', 'anaphylaxis', 'pericarditis', 'myocarditis', 'acute dystonic reactions', 'myasthenia gravis', 'anemia', 'sarcoidosis', 'pancreatic neoplasm', 'scombroid food poisoning', 'psvt', 'sle', 'stable angina', 'chagas'].DO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Based on the provided dialog, the diagnosis is likely 'possible myocardial infarction (MI)/STEMI' or more specifically, 'stable angina'. Here's why:\n\n1. Chest pain location: The patient reports lower chest pain, which is a common location for cardiac-related pain.\n2. Pain characteristics: Heavy, intense pain that radiates to other locations such as the biceps and shoulder, suggesting a significant cardiac issue.\n3. Radiation of pain: The pain radiating to the thyroid cartilage, thoracic spine, under the jaw, and other areas indicates a severe, potentially life-threatening condition like myocardial infarction.\n4. Duration and intensity: The rapid onset (6 minutes) and intense nature (4/10) of the pain are consistent with acute coronary syndrome.\n5. Associated symptoms: Shortness of breath, high cholesterol, and a history of heart-related conditions increase the likelihood of a cardiac issue.\n6. Family history: Having close family members who had cardiovascular disease problems before age 50 adds to the risk assessment for myocardial infarction.\n\nWhile other options like panic attack or Gastroesophageal Reflux Disease (GERD) cannot be entirely ruled out, the combination of symptoms and risk factors point towards a cardiac issue. Further testing, such as ECG, troponin levels, and possibly imaging studies, would be necessary to confirm the diagnosis.\n\nDiagnosis: Possible myocardial infarction/STEMI",
+      "label": "stable angina"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:1. Review: not recommended at all. maharaja cooler very poor coletyDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "Negative",
+      "label": "negative"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: must buy!. good quality worth itDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "The answer is: positive",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: simply awesome. best quality for mi pro 4a thank you flibkatDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would classify this review as \"positive\". The reviewer uses the word \"awesome\" to describe the product and expresses gratitude towards the seller, indicating a high level of satisfaction with their purchase.",
+      "label": "positive"
+    },
+    {
+      "prompt": "Is the following product review positive, neutral, or negative? Answer with \"positive\", \"neutral\", or \"negative\". Rating:5. Review: terrific. today full mood offDO NOT GIVE ANY EXPLANATION. JUST GIVE YOUR CHOICE AS ANSWER",
+      "response": "I would categorize this product review as \"positive\". The reviewer uses the word \"terrific\" to express their satisfaction, and there is only one negative comment (\"full mood off\") which is likely a minor issue rather than a major complaint.",
+      "label": "positive"
+    }
+  ]
+}
